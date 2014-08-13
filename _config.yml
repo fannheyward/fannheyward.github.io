@@ -1,0 +1,29 @@
+# Site settings
+title: Meet @fannheyward
+author: "Heyward Fann"
+email: fannheyward@gmail.com
+description: "Heyward Fann, aka fannheyward, aim to be a Full Stack Developer, blog about development and my life."
+baseurl: ""
+url: "http://fann.im"
+twitter_username: fannheyward
+github_username:  fannheyward
+google_plus: 117945530073148473022
+google_analytics_tracking_id: UA-5304377-4
+
+# Build settings
+markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title
+
+paginate: 10
+paginate_path: "blog/page/:num"
+
+kramdown:
+  input: GFM
+
+redcarpet:
+  extensions: ['smart', 'no_intra_emphasis', 'strikethrough', 'tables', 'footnotes', 'highlight', 'underline']
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+

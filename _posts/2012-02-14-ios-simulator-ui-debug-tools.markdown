@@ -1,0 +1,12 @@
+---
+layout: post
+title: "iOS 模拟器界面调试小工具"
+date: 2012-02-14 10:27
+categories: [Dev, Share]
+---
+
+不知道 Xcode 什么时候添加进来的功能，在模拟器 Debug 菜单下选中 **Color Blended Layers** 可以很方便的查看界面元素排版布局。
+
+![](http://ww3.sinaimg.cn/mw600/48db4d54jw1dq1llsnzicj.jpg)
+
+BTW, 现在在模拟器可以直接 Command+S 来截图了。

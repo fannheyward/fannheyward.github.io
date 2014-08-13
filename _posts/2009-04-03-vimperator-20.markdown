@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Vimperator 2.0使用"
+---
+
+vimperator 2.0最近放了出来，升级安装后发现一些新东西：
+
+1. 数字化标签，:set guioptions=n/N，小写的话在标签图标后添加数字，大写是在标签图标上添加；
+2. guioptions 增加了几个参数，b/r/l 设置滚动条位置，默认不会显示滚动条的；
+3. colorscheme 配色方案，类似于 vim，现在 vimperator 也可以使用配色了，配色文件命名为 name.vimp。Windows 下装了 2.0 版本后会自动在个人目录下生成一个 vimperator 的文件夹，vista 下面是：C:\Users\Heyward\vimperator，里面有一个 info 子文件夹，功能类似于 vim 的 viminfo 功能。要使用配色先新建一 colors 文件夹，把找到的配色方案放到里面，然后 `:colorscheme name`就可以使用了。目前还没有找到比较好的配色， github 上有几个还不错。

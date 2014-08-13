@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Yes I Can!"
+---
+
+接下来的工作学习方向：
+
+1. iPhone/Android 开发。
+2. Python/PHP Web 开发。
+3. Web 前端尤其是 JavaScript 的学习。
+
+谨记：
+
++ 多沟通，一个小时解决不了的问题就问，节省时间，提高效率。
++ 做事有计划。
++ 多写文档。
+
