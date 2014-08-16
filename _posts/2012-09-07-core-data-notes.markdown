@@ -9,13 +9,13 @@ categories: [Dev]
 
 NSPersistentStoreCoordinator 是持久化存储， NSManagedObjectModel 指明存储数据结构和关系，NSManagedObjectContext 来读取、存储操作。
 
-```
+``` objc
 - (NSManagedObjectContext *)managedObjectContext
 {
     if (_managedObjectContext != nil) {
         return _managedObjectContext;
     }
-    
+
     NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
     if (coordinator != nil) {
         _managedObjectContext = [[NSManagedObjectContext alloc] init];
@@ -39,22 +39,22 @@ NSPersistentStoreCoordinator 是持久化存储， NSManagedObjectModel 指明�
     if (_persistentStoreCoordinator != nil) {
         return _persistentStoreCoordinator;
     }
-    
+
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"CDTest.sqlite"];
-    
+
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
     }
-    
+
     return _persistentStoreCoordinator;
 }
 ```
 
 新增数据：
 
-```
+```objc
 Person *person = [NSEntityDescription insertNewObjectForEntityForName:@"Person"
                                                inManagedObjectContext:_managedObjectContext];
 person.name = @"fannheyward";
@@ -64,7 +64,7 @@ person.age = [NSNumber numberWithInt:25];
 
 通过 NSFetchRequest 查找，配合 NSPredicate 对数据进行过滤判断：
 
-```
+```objc
 NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:@"Person"];
 request.predicate = [NSPredicate predicateWithFormat:@"age == %@", age];;
 NSArray *arr = [_managedObjectContext executeFetchRequest:request error:NULL];
@@ -75,7 +75,7 @@ for (NSManagedObject *obj in arr) {
 
 NSFetchedResultsController 和 UITableView 做了很好的整合，可以根据 tableView 位置进行动态查询取数据。比如一共 100 个 cell，传统方式需要一次性全部拿到 DataSource 数据到内存，数据量过大的话会占用不少内存；用 NSFetchedResultsController 可以设置一次取数据的大小，然后根据滑动位置动态读取数据。
 
-```
+```objc
 - (NSFetchedResultsController *)fetchController
 {
     if (_fetchController != nil) {
@@ -109,7 +109,7 @@ NSFetchedResultsController 和 UITableView 做了很好的整合，可以根据 
 
 和 UITableView 的整合：
 
-```
+```objc
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     id <NSFetchedResultsSectionInfo> info = [[_fetchController sections] objectAtIndex:section];

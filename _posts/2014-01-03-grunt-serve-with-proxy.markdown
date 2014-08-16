@@ -11,7 +11,7 @@ categories: [Dev]
 
 下载安装：`npm install grunt-connect-proxy --save-dev`，在 `Gruntfile.js` 添加 `grunt.loadNpmTasks('grunt-connect-proxy');` 启用。修改 `connect` 段设置，添加 `proxies` 和 livereload - middleware：
 
-```
+```js
 grunt.initConfig({
     connect: {
       options: {
@@ -64,7 +64,7 @@ grunt.initConfig({
 
 在 `serve` 任务下添加 `configureProxies`，注意要加在 `connect` 任务前：
 
-```
+```js
 grunt.registerTask('serve', function (target) {
   if (target === 'dist') {
     return grunt.task.run(['build', 'connect:dist:keepalive']);

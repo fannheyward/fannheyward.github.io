@@ -9,7 +9,7 @@ iOS 4+ 支持 audio、location、voip 后台常驻任务，除此以外 App 还�
 
 注册消息通知，或者直接实现 `- (applicationDidEnterBackground:(UIApplication *)application` delegate。
 
-```
+```objc
 [[NSNotificationCenter defaultCenter] addObserver:self
                                          selector:@selector(appDidEnterBackground)
                                              name:UIApplicationDidEnterBackgroundNotification
@@ -18,7 +18,7 @@ iOS 4+ 支持 audio、location、voip 后台常驻任务，除此以外 App 还�
 
 向系统申请 background task 并执行：
 
-```
+```objc
 - (void)appDidEnterBackground
 {
     if (![UIDevice currentDevice].multitaskingSupported) {

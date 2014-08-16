@@ -9,7 +9,7 @@ categories: [Dev]
 
 `[_rootTable setEditing:YES animated:YES];` 进入多选，然后实现 delegate：
 
-```
+```objc
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	// 关键所在
