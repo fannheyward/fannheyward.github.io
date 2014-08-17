@@ -23,7 +23,7 @@ end
 desc 'Build site with Jekyll'
 task :build do
     sh 'jekyll build'
-    sh 'open http://127.0.0.1:4003'
+    sh 'open http://127.0.0.1:4001'
 end
 
 desc "list tasks"
