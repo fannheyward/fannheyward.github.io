@@ -21,6 +21,7 @@ task :post do
         post.puts "---"
         post.puts ""
     end
+    sh "open #{filename}"
 end
 
 desc 'Build site with Jekyll'
