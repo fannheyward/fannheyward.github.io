@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Tweet"
+external-url: https://twitter.com/jack/status/17680161621151744
+date: 2014-10-19 13:28:25 +0800
+---
+
+> Make every detail perfect and limit the number of details to perfect.
+
+via [Jack](https://twitter.com/jack/status/17680161621151744)
