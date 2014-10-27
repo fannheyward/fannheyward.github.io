@@ -20,7 +20,7 @@ docker pull NAME
 ```
 docker build -t NAME .
 ```
-在当前目录根据 Dockerfile 构建容器。
+在当前目录根据 Dockerfile 构建容器，`--rm` 自动删除 build 中间状态的容器。
 
 ```
 docker run -i -t -p 8080:80 NAME
@@ -35,9 +35,9 @@ docker run -i -t -p 8080:80 NAME
 * `--rm` 自动删除已运行存在的相同 IMAGE 的容器。
 
 ```
-docker attach -sig-proxy=false CONTAINER
+docker attach --sig-proxy=false CONTAINER
 ```
-attach 后台运行的容器，加上 `-sig-proxy=false` 参数可以通过 `Ctrl+C` detach，不然一旦 attach 就没办法取消。
+attach 后台运行的容器，加上 `--sig-proxy=false` 参数可以通过 `Ctrl+C` detach，不然一旦 attach 就没办法取消。
 
 ```
 docker commit --run='COMMAND' -m 'message' CONTAINER IMAGE:tag
