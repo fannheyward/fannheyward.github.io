@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Yoda"
+date: 2014-11-08 17:00:03 +0800
+---
+
+> "Always pass on what you have learned."
+
