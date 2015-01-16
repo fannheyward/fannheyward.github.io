@@ -15,7 +15,7 @@ Vim 文本选择时可以用 `a` `i` 指定选择范围。`a` 代表一个整体
 
 `vaB` 选中包括 `{}` 在内的文本，`viB` 不包括 `{}` 本身，等同 `va{/va}`, `vi{/vi}`, 类似还有 `va[`、`vi[` 等。
 
-`vip` 选中一段落文字，vip = visual inner paragraph.
+`vip|vis` 选中一段落文字，vip = visual inner paragraph. vis = inner sentence.
 
 将 `v` 换为 `d` 是就变成了删除操作，删除范围同上。
 
