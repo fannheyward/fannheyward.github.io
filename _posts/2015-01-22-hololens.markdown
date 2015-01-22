@@ -1,0 +1,9 @@
+---
+layout: post
+title: HoloLens
+external-url: http://www.microsoft.com/microsoft-hololens/en-us
+date: 2015-01-22 18:06:03 +0800
+---
+
+> When you change the way you see the world, you can change the world you see.
+
