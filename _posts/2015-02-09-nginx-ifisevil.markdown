@@ -32,5 +32,10 @@ location = /api {
 
 Nginx [Pitfalls][2] 列举了一些 nginx 陷阱，值得学习。
 
+----
+
+春哥这篇 [How nginx "location if" works][3] 做了逐步分析，学习。
+
 [1]:http://wiki.nginx.org/IfIsEvil
 [2]:http://wiki.nginx.org/Pitfalls
+[3]:http://agentzh.blogspot.jp/2011/03/how-nginx-location-if-works.html
