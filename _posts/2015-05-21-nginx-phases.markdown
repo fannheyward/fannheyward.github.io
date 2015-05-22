@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nginx/OpenResty 请求阶段执行顺序
+title: Nginx/OpenResty 指令的执行顺序
 date: 2015-05-21 16:33:51 +0800
 ---
 
