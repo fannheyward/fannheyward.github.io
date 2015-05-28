@@ -1,0 +1,19 @@
+---
+layout: post
+title: 避免 rm 误操作
+date: 2015-05-28 14:42:15 +0800
+---
+
+规避 `rm -rf *` 操作：
+
+> 目录下新建 `-i` 文件， `touch -- -i` or `touch ./-i`
+
+但是对于 `rm -rf ./*` 无效。
+
+用 [safe-rm][1] 加持保护。
+
+不要 `alias rm='rm -i'`，一旦习惯后在没有 alias 的机子上很容易误伤，可以新建别名，比如 `alias del='rm -i'`，然后习惯用 del 代替 rm.
+
+最后，不要偷懒而滥用 **root**。
+
+[1]:https://launchpad.net/safe-rm
