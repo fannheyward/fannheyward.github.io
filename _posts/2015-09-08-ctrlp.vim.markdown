@@ -1,0 +1,24 @@
+---
+layout: post
+title: CtrlP.vim
+date: 2015-09-08 15:38:32 +0800
+---
+
+ctrlp.vim 是个非常棒的 vim 插件，可模糊搜索文件、buffer、mru 等等，原生 vim-script，相比 Command-T 更为友好的安装，速度上也没有差多少，所以[几年前][1]知道这个插件就一直在用，最近才发现原作者从 2013 年就不再维护更新，另一个社区版更为活跃，也加了不少新功能。
+
+社区版地址 [ctrlpvim/ctrlp.vim][2]，支持扩展功能，也就是 vim 插件的插件，其中 [ctrlp-funky][3] 可以在当前文件内定义的方法之间跳转，类似 Tagbar/Taglist，但不依赖于 ctags，算是个精简版。
+
+```
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tacahiroy/ctrlp-funky'
+
+let g:ctrlp_extensions = ['funky']
+let g:ctrlp_funky_syntax_highlight = 1
+:com! -n=0 D CtrlPFunky
+nnoremap <Leader>fu :CtrlPFunky<Cr>
+nnoremap <Leader>fU :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
+```
+
+[1]:https://github.com/fannheyward/vimrc/commit/16c18325ac5edb67c78df2f67be33631576e68b1
+[2]:https://github.com/ctrlpvim/ctrlp.vim
+[3]:https://github.com/tacahiroy/ctrlp-funky
