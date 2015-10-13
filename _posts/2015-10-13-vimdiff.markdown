@@ -1,0 +1,12 @@
+---
+layout: post
+title: vimdiff
+date: 2015-10-13 20:42:30 +0800
+---
+
+`vimdiff a.txt b.txt`
+
+* `]c` - 跳到下一个差异点
+* `[c` - 上一个差异点
+* `dp` - diff put, 将差异点的内容从当前文件复制到另一文件
+* `do` - diff get, 相反，从另一文件复制到当前文件

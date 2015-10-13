@@ -17,7 +17,7 @@ date: 2015-09-18 21:29:15 +0800
 3. V2EX，知乎，36kr，iApps，虎嗅等科技网站发帖，有引用 Twitter 链接/截图 [1][11] [2][22] [3][33] [4][44] [5][55]
 4. 15:10 腾讯科技 [App Store遭病毒入侵 网易云音乐等中招][6]，而且他们应该是有通过 Linkedin 查看我的工作信息，之后该文被其他多家引用。
 
-根据 Tweet Activity 统计，原推一共 impressions 14000+, engagements 1300+，RT 170+，followers 增长 100+，考虑到访问 Twitter 的困难，这个数据还是非常恐怖的。微博的量应该更大。
+根据 Tweet Activity 统计，原推一共 impressions 14000+，engagements 1300+，RT 170+，followers 增长 100+，考虑到访问 Twitter 的困难，这个数据还是非常恐怖的。微博的量应该更大。
 
 这是 Growth hacking 的一次直观感受，如果产品推广也能有这样的效果该多好 :D
 
