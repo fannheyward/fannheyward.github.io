@@ -25,6 +25,8 @@ categories: [Dev]
 
 tmux 支持 `~/.tmux.conf` 配置文件，推荐设置 `set-option -g base-index 1` 让窗口从 1 排序，方便数字键切换。更多设置参考 Wiki [使用tmux][1]。
 
+[Tmux Plugin Manager][3]，插件管理，推荐 tmux-sensible, tmux-resurrect.
+
 [1]:https://wiki.freebsdchina.org/software/t/tmux
 [2]:http://stackoverflow.com/a/7819465/380774
-
+[3]:https://github.com/tmux-plugins/tpm
