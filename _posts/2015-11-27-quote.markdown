@@ -1,0 +1,10 @@
+---
+layout: post
+title: 太用力的人跑不远
+date: 2015-11-27 11:34:39 +0800
+external-url: http://yanyiwu.com/work/2015/11/22/grind-too-hard-to-go-far.html
+---
+
+> 太用力的人跑不远
+
+跑步如此，代码如此，人生亦是如此。
