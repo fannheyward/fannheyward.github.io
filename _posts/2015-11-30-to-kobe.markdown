@@ -1,0 +1,8 @@
+---
+layout: post
+title: Letter from Kobe
+date: 2015-11-30 11:38:21 +0800
+external-url: http://www.kobebryant.com/stories/
+---
+
+![Letter from Kobe](http://7xl883.media1.z0.glb.clouddn.com/kobe.png)
