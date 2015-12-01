@@ -22,8 +22,7 @@ date: 2015-02-06 00:16:48 +0800
 
 middleware 的好处是可多层组合，让流程有层次，服务更专一。接下来要在实际项目中实践一下:
 
-* [Negroni][1], Idiomatic HTTP Middleware for Golang.
-Martini 作者开发。
+* [Negroni][1], Idiomatic HTTP Middleware for Golang. Martini 作者开发。
 * [lua-resty-rack][2], A minimalistic rack implementation for Openresty.
 
 [1]:http://codegangsta.io/blog/2014/05/19/my-thoughts-on-martini/
