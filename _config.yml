@@ -11,7 +11,6 @@ google_plus: 117945530073148473022
 google_analytics_tracking_id: UA-5304377-4
 
 # Build settings
-markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title
 
 paginate: 10
@@ -19,9 +18,7 @@ paginate_path: "blog/page/:num"
 
 kramdown:
   input: GFM
-
-redcarpet:
-  extensions: ['smart', 'no_intra_emphasis', 'strikethrough', 'tables', 'footnotes', 'highlight', 'underline']
+  hard_wrap: false
 
 gems:
   - jekyll-sitemap
