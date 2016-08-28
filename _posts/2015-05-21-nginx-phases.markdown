@@ -41,6 +41,7 @@ date: 2015-05-21 16:33:51 +0800
 17. **log**, access_log, error_log, log_by_lua.
 18. **post action**.
 
+![](https://cloud.githubusercontent.com/assets/2137369/15272097/77d1c09e-1a37-11e6-97ef-d9767035fc3e.png)
 
 [1]:https://gist.github.com/diyism/36c9d7e699cf3c67352e
 [2]:http://wiki.nginx.org/Phases
