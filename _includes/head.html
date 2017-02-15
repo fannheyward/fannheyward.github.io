@@ -10,7 +10,7 @@
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta itemprop="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ site.twitter_username }}">
@@ -26,6 +26,6 @@
   <meta property="og:site_name" content="{{ site.title }}" />
 
   <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/atom.xml" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/atom.xml" | relative_url }}">
 </head>
