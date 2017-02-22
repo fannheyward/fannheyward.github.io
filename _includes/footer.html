@@ -8,8 +8,8 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
-            {% if site.author %}
-              {{ site.author | escape }}
+            {% if site.author.username %}
+              {{ site.author.username | escape }}
             {% else %}
               {{ site.title | escape }}
             {% endif %}
@@ -28,9 +28,9 @@
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.twitter.username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-twitter.html username=site.twitter.username %}
           </li>
           {% endif %}
         </ul>
