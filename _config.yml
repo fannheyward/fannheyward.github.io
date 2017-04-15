@@ -1,5 +1,6 @@
 # Site settings
 title: Meet @fannheyward
+author: "Heyward Fann"
 email: fannheyward@gmail.com
 description: "Heyward Fann, aka fannheyward, a developer based in Beijing, China."
 baseurl: ""
@@ -8,10 +9,6 @@ url: "https://fann.im"
 github_username:  fannheyward
 google_plus: 117945530073148473022
 google_analytics_tracking_id: UA-5304377-4
-
-author:
-  username: "Heyward Fann"
-  twitter: "fannheyward"
 
 twitter:
   username: "fannheyward"
