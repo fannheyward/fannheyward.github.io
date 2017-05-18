@@ -1,0 +1,20 @@
+---
+layout: post
+title: TLS 1.2+ in Nginx
+date: 2017-05-18 15:09:43 +0800
+---
+
+小程序要求 HTTPS 并且 TLS 1.2 以上，不然会报错：
+
+> 小程序要求的 TLS 版本必须大于等于 1.2
+
+Nginx 下需要用新版 OpenSSL 重新编译 Nginx。官网下载新版 [OpenSSL](https://www.openssl.org/source/) 和 Nginx：
+
+```
+./configure —with-http_ssl_module —with-openssl=/home/page/soft/openssl-1.0.2k -j8
+make -j8
+make install
+```
+
+[重启 Nginx](https://fann.im/blog/2014/03/21/upgrade-nginx-on-the-fly/) 即可。
+
