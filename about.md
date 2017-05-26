@@ -6,11 +6,11 @@ permalink: /about/
 
 Heyward Fann, aka **fannheyward** on the web, is a developer based in Beijing, China.
 
-- iOS
-- OpenResty(ngx_lua)
-- Lua
+- Golang
+- OpenResty / ngx_lua
 - Python
-- Node.js & Golang
+- JavaScript / TypeScript
+- iOS (Objective-C)
 - Vim
 
 Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <fannheyward@gmail.com>.
