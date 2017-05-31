@@ -1,0 +1,11 @@
+---
+layout: post
+title: Fix "Enter passphrase for key" on macOS
+date: 2017-05-31 14:38:15 +0800
+---
+
+You will be asked 'Enter passphrase for key' when doing SSH operation:
+
+> Enter passphrase for key '/Users/fannheyward/.ssh/id_rsa':
+
+On macOS you can fix this by `ssh-add -K`.
