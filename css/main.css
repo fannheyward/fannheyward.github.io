@@ -82,8 +82,7 @@ blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 15px;
   font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
+  letter-spacing: -1px; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
