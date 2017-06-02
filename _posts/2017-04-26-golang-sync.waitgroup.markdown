@@ -21,7 +21,7 @@ var errChan = make(chan error, len(urls))
 for _, url := range urls {
     wg.Add(1)
 
-    go func(url string, wg *sync.WaitGroup) {
+    go func(url string) {
         defer wg.Done()
 
         resp, err := http.Get(url)
@@ -29,7 +29,7 @@ for _, url := range urls {
             errChan <- err
         }
         defer resp.Body.Close()
-    }(url, &wg)
+    }(url)
 }
 
 wg.Wait()
