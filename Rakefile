@@ -1,5 +1,5 @@
 task :default do
-    sh 'bundle exec jekyll build --incremental'
+    sh 'jekyll build --incremental'
     sh 'open http://127.0.0.1:4001'
 end
 
@@ -26,12 +26,12 @@ end
 
 desc 'clean cache'
 task :clean do
-    sh 'bundle exec jekyll clean'
+    sh 'jekyll clean'
 end
 
 desc 'Build site with Jekyll'
 task :build do
-    sh 'bundle exec jekyll build --incremental'
+    sh 'jekyll build --incremental'
 end
 
 desc "list tasks"
