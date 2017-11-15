@@ -33,7 +33,7 @@ kramdown:
   input: GFM
   hard_wrap: false
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
