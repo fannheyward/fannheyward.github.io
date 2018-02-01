@@ -1,0 +1,9 @@
+---
+layout: post
+title: Bash Set notes
+date: 2018-02-01 14:28:49 +0800
+---
+
+1. `set -u` 不存在的变量报错中止
+2. `set -e` 发生错误时中止
+3. `set -x` 打印输出要执行的命令
