@@ -1,7 +1,4 @@
-task :default do
-    sh 'jekyll build --incremental'
-    sh 'open http://127.0.0.1:4001'
-end
+task :default => [:clean, :build, :preview]
 
 desc 'Make a new post'
 task :post do
@@ -24,17 +21,22 @@ task :post do
     sh "open #{filename}"
 end
 
-desc 'clean cache'
+desc 'Clean cache'
 task :clean do
     sh 'jekyll clean'
 end
 
 desc 'Build site with Jekyll'
 task :build do
-    sh 'jekyll build --incremental'
+    sh 'jekyll build'
 end
 
-desc "list tasks"
+desc 'Preview in browser'
+task :preview do
+  sh 'open http://127.0.0.1:4001'
+end
+
+desc "List tasks"
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
 end
