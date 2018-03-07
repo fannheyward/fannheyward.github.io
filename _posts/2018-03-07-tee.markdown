@@ -1,0 +1,11 @@
+---
+layout: post
+title: tee
+date: 2018-03-07 11:49:48 +0800
+---
+
+> read from stdin, write to stdout **AND** files.
+
+```
+curl https://github.com/fannheyward.keys | tee -a ~/.ssh/authorized_keys
+```
