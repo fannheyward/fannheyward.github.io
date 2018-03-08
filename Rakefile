@@ -1,4 +1,4 @@
-task :default => [:clean, :build, :preview]
+task :default => [:clean, :build]
 
 desc 'Make a new post'
 task :post do
