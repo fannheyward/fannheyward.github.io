@@ -10,6 +10,7 @@ services:
   mysql:
     image: 'mysql:5'
     container_name: 'mysql'
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --init-connect='SET NAMES UTF8;'
     ports:
       - "3306:3306"
     environment:
