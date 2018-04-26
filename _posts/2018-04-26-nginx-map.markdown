@@ -1,0 +1,22 @@
+---
+layout: post
+title: Nginx map
+date: 2018-04-26 23:06:43 +0800
+---
+
+```
+map $room $room_server {
+    default 192.168.1.101:8080;
+    1 192.168.1.101:8080;
+    2 192.168.1.102:8080;
+}
+
+server {
+    listen  80;
+
+    location ~ /api/(\d+)/room {
+        set $room $1;
+        echo $room_server;
+    }
+}
+```
