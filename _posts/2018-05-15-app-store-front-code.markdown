@@ -16,3 +16,17 @@ AU 143460,29
 TW 143470-18,29
 CA 143455-6,29
 ```
+
+App info:
+
+```
+curl -H 'x-apple-store-front: 143465-19,29' 'https://itunes.apple.com/cn/app/id1318151064?mt=8'
+```
+
+Top Free iPhone Apps:
+
+```
+curl -H 'x-apple-store-front: 143465-0,9' 'https://itunes.apple.com/WebObjects/MZStore.woa/wa/topChartFragmentData?=&popId=27&pageNumbers=0&pageSize=1000'
+
+curl -H 'x-apple-store-front: 143465-19,29' 'https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?id=25204&popId=27&genreId=36'
+```
