@@ -88,5 +88,5 @@ AFN 作者 @mattt 做东西很有自己一套思想在里面，推荐 [What I Le
 [4]:https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-Extensions
 [5]:https://speakerdeck.com/u/mattt/p/what-i-learned-from-afnetworkings-github-issues
 [6]:http://www.vimeo.com/47459338
-[7]:http://fann.im/blog/2013/04/29/afnetworking-notes-2/
+[7]:https://fann.im/blog/2013/04/29/afnetworking-notes-2/
 

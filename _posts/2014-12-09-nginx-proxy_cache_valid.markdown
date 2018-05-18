@@ -22,7 +22,7 @@ date: 2014-12-09 17:02:09 +0800
 * [Nginx缓存详细配置][5]
 * [nginx缓存优先级(缓存问题者必看)][6]
 
-[1]:http://fann.im/blog/2014/08/30/nginx-proxy-cache/
+[1]:https://fann.im/blog/2014/08/30/nginx-proxy-cache/
 [2]:http://wiki.nginx.org/HttpProxyModule#proxy_cache_valid
 [3]:http://forum.nginx.org/read.php?2,2182,2185#msg-2185
 [4]:http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_cache_valid

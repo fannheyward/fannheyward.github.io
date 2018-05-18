@@ -88,8 +88,8 @@ iDev 免不了要用到很多第三方库，这时候最好选用那些较新且
 * WWDC 2012 Session 405 - Modern Objective-C
 * WWDC 2012 Session 413 - Migrating to Modern Objective-C.
 
-[1]:http://fann.im/blog/2012/11/21/new-objective-c-literals/
-[2]:http://fann.im/blog/2012/08/14/dont-use-accessor-methods-in-init-and-dealloc/
-[3]:http://fann.im/blog/2012/08/21/afnetworking-notes/
-[4]:http://fann.im/blog/2012/10/31/cocoapods-notes/
+[1]:https://fann.im/blog/2012/11/21/new-objective-c-literals/
+[2]:https://fann.im/blog/2012/08/14/dont-use-accessor-methods-in-init-and-dealloc/
+[3]:https://fann.im/blog/2012/08/21/afnetworking-notes/
+[4]:https://fann.im/blog/2012/10/31/cocoapods-notes/
 

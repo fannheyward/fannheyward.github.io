@@ -55,7 +55,7 @@ Xcode 5 提供了两个方法测试 Background Fetch，一是模拟器运行应�
 
 参考 [Multitasking in iOS 7][2], [WWDC 2013 Session笔记 - iOS7中的多任务][3], [iOS 7: Background Fetch][4].
 
-[1]:http://fann.im/blog/2014/02/23/nsoperation/
+[1]:https://fann.im/blog/2014/02/23/nsoperation/
 [2]:http://www.objc.io/issue-5/multitasking.html
 [3]:http://onevcat.com/2013/08/ios7-background-multitask/
 [4]:http://www.doubleencore.com/2013/09/ios-7-background-fetch/

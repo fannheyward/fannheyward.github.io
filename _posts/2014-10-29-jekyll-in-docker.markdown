@@ -56,7 +56,7 @@ Then:
 就目前的情况，用 Docker 构建测试环境很方便，麻烦的是测试用例和测试脚本整理，小团队基本以业务为主，很少有时间或没有意识的去写测试用例，只是在完成具体业务后针对该功能进行测试，没法系统的进行测试，这个需要在后面工作中重视起来。
 
 [ruby]:https://github.com/docker-library/ruby/blob/master/2.1/Dockerfile#L10
-[0]:http://fann.im/blog/2014/02/11/docker-notes/
+[0]:https://fann.im/blog/2014/02/11/docker-notes/
 [1]:https://crosbymichael.com/dockerfile-best-practices.html
 [2]:https://crosbymichael.com/dockerfile-best-practices-take-2.html
 [3]:http://jonathan.bergknoff.com/journal/building-good-docker-images

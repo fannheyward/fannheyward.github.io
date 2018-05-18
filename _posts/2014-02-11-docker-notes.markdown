@@ -81,6 +81,6 @@ docker inspect CONTAINER | grep IPAddress
 
 更多可参考 [Docker 文档][2]。
 
-[1]:http://fann.im/blog/2014/02/10/gitlab-with-docker/
+[1]:https://fann.im/blog/2014/02/10/gitlab-with-docker/
 [2]:http://docs.docker.io/en/latest/
 

@@ -15,5 +15,5 @@ date: 2014-09-03 20:28:44 +0800
 > 不要做让自己讨厌自己的事情。 [1][1] [2][2]
 
 [0]:http://en.wikipedia.org/wiki/Murphy's_law
-[1]:http://fann.im/blog/2011/08/11/quote-0811/
-[2]:http://fann.im/blog/2011/11/02/do-not-do-what-you-hate-by-yourself/
+[1]:https://fann.im/blog/2011/08/11/quote-0811/
+[2]:https://fann.im/blog/2011/11/02/do-not-do-what-you-hate-by-yourself/

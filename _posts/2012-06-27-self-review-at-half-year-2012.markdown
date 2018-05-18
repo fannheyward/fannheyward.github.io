@@ -27,6 +27,6 @@ categories: [Life]
 
 嗯，以上。
 
-[1]:http://fann.im/blog/2012/03/05/my-first-product-summary-failed/
-[2]:http://fann.im/blog/2011/06/11/change-or-be-changed/
+[1]:https://fann.im/blog/2012/03/05/my-first-product-summary-failed/
+[2]:https://fann.im/blog/2011/06/11/change-or-be-changed/
 

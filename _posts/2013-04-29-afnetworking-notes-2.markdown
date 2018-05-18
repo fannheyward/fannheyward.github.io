@@ -43,7 +43,7 @@ AFN 已经取代 ASIHTTPRequest(ASI) 成为 iOS 开发中首选的网络库，�
 
 最近发现了一个网络库 [STHTTPRequest][3]，基于 NSURLConnection，支持 synchronous+asynchronous blocks，支持文件上传，非常简单轻量的封装，值得一试。
 
-[1]:http://fann.im/blog/2012/08/21/afnetworking-notes/
+[1]:https://fann.im/blog/2012/08/21/afnetworking-notes/
 [2]:http://www.jiajun.org/2013/03/16/afnetworking_vs_asihttprequest.html
 [3]:https://github.com/nst/STHTTPRequest
 
