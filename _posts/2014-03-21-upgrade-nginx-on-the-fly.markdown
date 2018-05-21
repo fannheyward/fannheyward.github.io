@@ -17,7 +17,11 @@ Nginx 可以在不中断服务的情况下平滑升级，很是方便。
 
 5. 如果新版本有处理失败，需要回滚旧版，用 `kill -HUP old_nginx.pid` 重新启动 old worker，`kill -QUIT new_nginx.pid` 退出新版本。
 
-More: [Upgrading To a New Binary On The Fly][1]
+More:
+
+* [Upgrading To a New Binary On The Fly][1]
+* [Controlling nginx][2]
 
 [1]:http://wiki.nginx.org/CommandLine#Upgrading_To_a_New_Binary_On_The_Fly
+[2]:http://nginx.org/en/docs/control.html
 
