@@ -2,7 +2,6 @@
 layout: post
 title: "DLog"
 date: 2011-12-02 10:41
-categories: [Dev]
 ---
 
 DLog is almost a drop-in replacement for NSLog. via [The Evolution of a Replacement for NSLog](http://iphoneincubator.com/blog/debugging/the-evolution-of-a-replacement-for-nslog)

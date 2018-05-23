@@ -2,7 +2,6 @@
 layout: post
 title: "Docker 笔记"
 date: 2014-02-11 23:06
-categories: [Dev]
 ---
 
 所有 docker 操作都需要 root 权限，需要加 sudo:

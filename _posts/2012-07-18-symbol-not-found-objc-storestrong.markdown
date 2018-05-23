@@ -2,7 +2,6 @@
 layout: post
 title: "Symbol not found: _objc_storeStrong"
 date: 2012-07-18 21:51
-categories: [Dev]
 ---
 
 Crash log:

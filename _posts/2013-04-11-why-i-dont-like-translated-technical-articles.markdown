@@ -2,7 +2,6 @@
 layout: post
 title: "这就是为什么我不喜欢看中文翻译的技术文章"
 date: 2013-04-11 23:09
-categories: [Dev]
 ---
 
 原文: [25 iOS App Performance Tips & Tricks][1]

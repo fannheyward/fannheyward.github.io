@@ -2,7 +2,6 @@
 layout: post
 title: "Perform block after delay"
 date: 2013-06-28 09:31
-categories: [Dev]
 ---
 
 ```objc

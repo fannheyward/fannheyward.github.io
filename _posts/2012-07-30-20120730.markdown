@@ -2,7 +2,6 @@
 layout: post
 title: "20120730"
 date: 2012-07-30 13:13
-categories: [Life]
 ---
 
 公司最早的一批人，就剩我了。

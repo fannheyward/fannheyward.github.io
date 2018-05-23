@@ -2,7 +2,6 @@
 layout: post
 title: "resignFirstResponder doesn't work on iPad"
 date: 2012-06-06 16:44
-categories: [Dev]
 ---
 
 在 iPad 上，用 `modalPresentationStyle = UIModalPresentationFormSheet` 方式推出一个 viewController，这时这个 viewController 不会响应 `resignFirstResponder`，其他样式的 modalPresentationStyle 没有问题。苹果一个开发在开发者论坛说这是个 feature，不是 bug，[devforums.apple.com][1]

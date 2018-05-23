@@ -2,7 +2,6 @@
 layout: post
 title: "salary"
 date: 2013-07-31 17:35
-categories: [Life]
 ---
 
 > 当一个人觉得自己还有特别大进步空间的时候，说明他的薪水也还有特别大的进步空间。by @Linn

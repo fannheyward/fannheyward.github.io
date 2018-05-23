@@ -2,7 +2,6 @@
 layout: post
 title: "离家的孩子"
 date: 2013-03-27 22:06
-categories: [Life]
 ---
 
 2013-03-25:

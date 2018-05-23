@@ -2,7 +2,6 @@
 layout: post
 title: "Vim Golang 开发环境: vim-go"
 date: 2014-07-23 22:04:25 +0800
-categories: [Dev]
 ---
 
 安装 Golang 并设置 `$GOPATH`:

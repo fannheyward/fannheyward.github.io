@@ -2,7 +2,6 @@
 layout: post
 title: "Track iOS Device Model with Google Analytics Custom Variables"
 date: 2012-03-07 16:58
-categories: [Dev]
 ---
 
 Add [Google Analytics SDK for iOS ][1] to app project first.

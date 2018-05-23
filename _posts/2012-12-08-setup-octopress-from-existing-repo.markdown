@@ -2,7 +2,6 @@
 layout: post
 title: "Setup Octopress from existing repo"
 date: 2012-12-08 23:34
-categories: [Share]
 ---
 
 从已有的 Octopress repository 重新配置 GitHub Pages 托管博客，比如换了电脑却没有备份原来的设置。要求 source 分支已 push。

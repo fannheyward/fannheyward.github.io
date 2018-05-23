@@ -2,7 +2,6 @@
 layout: post
 title: "thoughts"
 date: 2013-06-22 15:47
-categories: [Life]
 ---
 
 > 搭功夫省钱，花钱省时间。

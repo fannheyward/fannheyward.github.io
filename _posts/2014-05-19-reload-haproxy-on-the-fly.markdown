@@ -2,7 +2,6 @@
 layout: post
 title: "Reload HAProxy on the fly"
 date: 2014-05-19 15:52:11 +0800
-categories: [Dev]
 ---
 
 ```

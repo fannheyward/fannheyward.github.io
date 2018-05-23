@@ -2,7 +2,6 @@
 layout: post
 title: "iPhone 数据存储"
 date: 2012-07-03 22:36
-categories: [Dev, Share]
 ---
 
 稍微总结一下 iPhone 的数据存储。常见的方式有这么几种：

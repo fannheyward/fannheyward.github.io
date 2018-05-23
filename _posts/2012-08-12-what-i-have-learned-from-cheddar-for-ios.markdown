@@ -2,7 +2,6 @@
 layout: post
 title: "What I have learned from Cheddar for iOS"
 date: 2012-08-12 12:07
-categories: [Dev]
 ---
 
 1. Code Style.

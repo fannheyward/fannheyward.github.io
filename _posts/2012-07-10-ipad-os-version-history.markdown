@@ -2,7 +2,6 @@
 layout: post
 title: "iPad OS version history"
 date: 2012-07-10 18:21
-categories: [Share]
 ---
 
 iPad 的系统版本历史 (via [iOS version history](https://en.wikipedia.org/wiki/IOS_version_history))：

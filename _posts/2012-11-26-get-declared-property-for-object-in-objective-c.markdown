@@ -2,7 +2,6 @@
 layout: post
 title: "Get declared property for object"
 date: 2012-11-26 10:49
-categories: [Dev]
 ---
 
 获取对象的 property 属性列表:

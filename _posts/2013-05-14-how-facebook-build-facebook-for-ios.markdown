@@ -2,7 +2,6 @@
 layout: post
 title: "How FB Build Facebook for iOS"
 date: 2013-05-14 11:46
-categories: [Share]
 ---
 
 [Mobile DevCon New York - How We Built Facebook for iOS][1]

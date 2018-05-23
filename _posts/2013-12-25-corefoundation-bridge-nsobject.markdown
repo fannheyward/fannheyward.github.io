@@ -2,7 +2,6 @@
 layout: post
 title: "CoreFoundation 和 NSObject 在 ARC 下的转换"
 date: 2013-12-25 09:00
-categories: [Dev]
 ---
 
 CoreFoundation 有自己的引用计数处理方法，在 CF 下如果生成对象的方法中有 create、retain、copy 就表示 CF 会用自己的方式对引用计数加一，这就需要在结束的时候用 `CFRelease()` 释放。而 ARC 目前只对 NSObject 对象有自动的引用计数处理，所以在 ARC 如果有 CoreFoundation 对象和 NSObject 对象转换就需要用 `__bridge`, `__bridge_transfer`, `__bridge_retained` 进行引用计数管理的转换。

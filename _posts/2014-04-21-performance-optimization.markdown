@@ -2,7 +2,6 @@
 layout: post
 title: "Performance on Optimization"
 date: 2014-04-21 22:39:35 +0800
-categories: [Dev]
 ---
 
 Donald Knuth:

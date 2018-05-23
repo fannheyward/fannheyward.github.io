@@ -2,7 +2,6 @@
 layout: post
 title: "Jawbone UP 2 Review"
 date: 2013-03-31 16:40
-categories: [Life]
 ---
 
 1 月 31 日开始用已经有两个月，简单记一个评测。

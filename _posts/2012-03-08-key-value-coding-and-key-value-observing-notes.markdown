@@ -2,7 +2,6 @@
 layout: post
 title: "Key Value Coding and Key Value Observing Notes"
 date: 2012-03-08 09:43
-categories: [Dev]
 ---
 
 KVO(Key Value Obersving) 的基础是 KVC(Key Value Coding)，现在我对 KVC 的理解还非常粗浅，对 KVO 只是使用阶段，下面这些是我的一些笔记，可能会有一些误差，后续有更多理解后会持续更新。

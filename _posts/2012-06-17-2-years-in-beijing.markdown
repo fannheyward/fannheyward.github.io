@@ -2,7 +2,6 @@
 layout: post
 title: "2 Years in Beijing"
 date: 2012-06-21 09:47
-categories: [Life]
 ---
 
 留记。

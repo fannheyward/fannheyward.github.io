@@ -2,7 +2,6 @@
 layout: post
 title: "CocoaPods Notes"
 date: 2012-10-31 14:24
-categories: [Dev]
 ---
 
 [CocoaPods][1], an Objective-C library dependency manager.

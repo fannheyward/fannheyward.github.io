@@ -2,7 +2,6 @@
 layout: post
 title: "平滑升级 Nginx"
 date: 2014-03-21 17:19:35 +0800
-categories: [Dev]
 ---
 
 Nginx 可以在不中断服务的情况下平滑升级，很是方便。

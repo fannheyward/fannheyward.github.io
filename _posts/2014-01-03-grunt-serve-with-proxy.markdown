@@ -2,7 +2,6 @@
 layout: post
 title: "Grunt serve with Proxy"
 date: 2014-01-03 16:46
-categories: [Dev]
 ---
 
 在用 Grunt 开发时可能需要连接外部服务，比如 `grunt serve` 服务在 `http://127.0.0.1:9000`, 当前页需要请求 `http://127.0.0.1:9090/api` 服务，这时候如果直接请求 `/api` 就变成了 `http://127.0.0.1:9000/api`，结果 404，因为这个地址是不存在的；如果直接请求 `http://127.0.0.1:9090/api` 就会出现跨域问题。

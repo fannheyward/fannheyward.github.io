@@ -2,7 +2,6 @@
 layout: post
 title: "[self review:2013];"
 date: 2013-12-31 17:11
-categories: [Life]
 ---
 
 2013 年度个人总结。先对照去年计划。

@@ -2,7 +2,6 @@
 layout: post
 title: "Bootstrap 3 Grid 笔记"
 date: 2013-10-30 22:21
-categories: [Dev]
 ---
 
 作为非专业的前端开发，Bootstrap 真是个好东西，特别适合做运营、管理系统界面。这些系统界面要求不高，干净整齐就好，最主要的就是网格 Grid 的使用，简单记录一下。

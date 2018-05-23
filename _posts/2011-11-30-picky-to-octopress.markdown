@@ -2,7 +2,6 @@
 layout: post
 title: "Picky to Octopress"
 date: 2011-11-30 15:13
-categories: [Octopress]
 ---
 
 **不敢保证转换过程万无一失，请注意备份**

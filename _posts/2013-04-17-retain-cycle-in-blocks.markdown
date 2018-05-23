@@ -2,7 +2,6 @@
 layout: post
 title: "Retain Cycle in Blocks"
 date: 2013-04-17 22:20
-categories: [Dev]
 ---
 
 > 个人笔记，可能会有理解不够透彻而错误。 @fannheyward

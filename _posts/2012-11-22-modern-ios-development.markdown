@@ -2,7 +2,6 @@
 layout: post
 title: "Modern iOS Development"
 date: 2012-11-22 15:00
-categories: [Dev]
 ---
 
 iOS 开发是一个进化非常快的技术领域，每年一更新的 iOS SDK 都会带来很多新东西，所以如果你现在用着和一年前一样的 code 做产品，虽然功能上没有差别，但是从技术上来说自身的成长进步非常有限。简单总结一下现在比较 modern 的开发方式。(截至 2012 年底)

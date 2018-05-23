@@ -2,7 +2,6 @@
 layout: post
 title: "Crash Early, Crash Often"
 date: 2013-10-11 21:21
-categories: [Dev]
 ---
 
 最近开发中的一点感悟。

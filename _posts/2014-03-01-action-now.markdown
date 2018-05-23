@@ -2,7 +2,6 @@
 layout: post
 title: "Take Action Now"
 date: 2014-03-01 16:42
-categories: [Life]
 ---
 
 ![action now](https://lh6.googleusercontent.com/-E9ymvWpj_vw/U4UzruETuSI/AAAAAAAAGFI/Cqg2piw_Jzw/w919-h533-no/funnel.jpg)

@@ -2,7 +2,6 @@
 layout: post
 title: "Semantic Versioning 匹配"
 date: 2014-02-14 22:54
-categories: [Dev]
 ---
 
 [Semantic Versioning][1] 直译为语义化版本，格式为 `MAJOR.MINOR.PATCH`，比如 `1.2.3` 代表第一主版本第二次版本第三补丁修正版，版本号唯一且可比较，更多信息参考官网介绍。

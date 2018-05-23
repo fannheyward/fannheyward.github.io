@@ -2,7 +2,6 @@
 layout: post
 title: "@autoreleasepool in loop or loop in @autoreleasepool"
 date: 2012-04-22 16:14
-categories: [Dev]
 ---
 
 如果循环中会生成大量的 autorelease 对象，可以考虑用 autorelease pool 来进行封装。封装时候有两种方式：

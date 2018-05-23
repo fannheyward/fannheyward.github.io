@@ -2,7 +2,6 @@
 layout: post
 title: "NSPredicate Notes"
 date: 2012-09-07 18:48
-categories: [Dev]
 ---
 
 在 Core Data 中可以给 NSFetchRequest 指定一个 predicate 来对数据进行过滤以方便查找，比如：

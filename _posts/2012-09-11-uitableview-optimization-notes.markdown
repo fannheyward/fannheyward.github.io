@@ -2,7 +2,6 @@
 layout: post
 title: "UITableView 性能优化笔记"
 date: 2012-09-11 11:48
-categories: [Dev]
 ---
 
 Hacking Week 技术总结最后一篇，记一下 UITableView 性能优化需要注意和改进的地方。

@@ -2,7 +2,6 @@
 layout: post
 title: "Angular.js 学习笔记"
 date: 2013-11-20 21:08
-categories: [Dev]
 ---
 
 > When in Rome, do as the Romans do.

@@ -2,7 +2,6 @@
 layout: post
 title: "Install GitLab with Docker"
 date: 2014-02-10 23:38
-categories: [Dev]
 ---
 
 [GitLab][1] 是个非常不错的 GitHub clone，很适合团队自建 git 服务器。但是由于 GitLab 是个 RoR 应用，加上 gitlab-shell 的权限要求等等，GitLab 的部署甚是麻烦。

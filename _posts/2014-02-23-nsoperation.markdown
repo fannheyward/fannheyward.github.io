@@ -2,7 +2,6 @@
 layout: post
 title: "NSOperation 笔记"
 date: 2014-02-23 20:55
-categories: [Dev]
 ---
 
 iOS 下的多线程编程有 NSOperation 和 Grand Central Dispatch(GCD) 两种，简单记一些 NSOperation 的使用注意。

@@ -2,7 +2,6 @@
 layout: post
 title: "Git 新建无历史记录分支"
 date: 2013-08-23 16:59
-categories: [Share]
 ---
 
 ```

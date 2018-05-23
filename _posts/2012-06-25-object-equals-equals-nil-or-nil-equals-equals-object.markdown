@@ -2,7 +2,6 @@
 layout: post
 title: "object == nil or nil == object"
 date: 2012-06-25 18:44
-categories: [Dev]
 ---
 
 在 Objective-C 中拿到一个对象后检查对象是否为空，一般有两种写法

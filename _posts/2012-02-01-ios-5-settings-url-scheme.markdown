@@ -2,7 +2,6 @@
 layout: post
 title: "iOS 5 Settings URL scheme"
 date: 2012-02-01 12:07
-categories: [Share]
 ---
 
 在 iOS 5+ 可以通过 URL scheme 快速打开【设置】及子项。

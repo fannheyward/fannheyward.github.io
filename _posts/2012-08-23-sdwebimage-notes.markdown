@@ -2,7 +2,6 @@
 layout: post
 title: "SDWebImage 笔记"
 date: 2012-08-23 23:42
-categories: [Dev]
 ---
 
 [SDWebImage][1] 支持异步的图片下载+缓存，提供了 `UIImageView+WebCacha` 的 category，方便使用。纪录一下 SDWebImage 加载图片的流程。

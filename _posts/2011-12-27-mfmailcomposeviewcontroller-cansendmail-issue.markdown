@@ -2,7 +2,6 @@
 layout: post
 title: "[MFMailComposeViewController canSendMail] issue"
 date: 2011-12-27 11:33
-categories: [Dev]
 ---
 
 发现 `MFMailComposeViewController` 一个挺奇怪的问题，代码一：

@@ -2,7 +2,6 @@
 layout: post
 title: "Hidden Features in osx.plugin.zsh"
 date: 2012-12-09 19:12
-categories: [Share]
 ---
 
 oh-my-zsh 自带了很多插件，其中 osx.plugin.zsh 里有不少好东西。

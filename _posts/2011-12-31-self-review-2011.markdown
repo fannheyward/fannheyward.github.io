@@ -2,7 +2,6 @@
 layout: post
 title: "[self review:2011];"
 date: 2011-12-31 09:54
-categories: [Life]
 ---
 
 ## 2011

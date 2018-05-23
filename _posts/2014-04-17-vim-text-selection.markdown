@@ -2,7 +2,6 @@
 layout: post
 title: "Vim 文本选择范围"
 date: 2014-04-17 22:34:31 +0800
-categories: [Dev]
 ---
 
 Vim 文本选择时可以用 `a` `i` 指定选择范围。`a` 代表一个整体(block)，`i` 代表 inner。比如：

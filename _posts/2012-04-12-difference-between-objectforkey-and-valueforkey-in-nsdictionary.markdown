@@ -2,7 +2,6 @@
 layout: post
 title: "Difference between objectForKey and valueForKey in NSDictionary"
 date: 2012-04-12 19:56
-categories: [Dev]
 ---
 
 从 NSDictionary 取值的时候有两个方法，`objectForKey:` 和 `valueForKey:`，这两个方法具体有什么不同呢？

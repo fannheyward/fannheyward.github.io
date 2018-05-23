@@ -2,7 +2,6 @@
 layout: post
 title: "Preview and Copy text from QuickLook"
 date: 2012-07-12 09:18
-categories: [Share]
 ---
 
 1. Enable QuickLook for all plain text file with [QLStephen][0]

@@ -2,7 +2,6 @@
 layout: post
 title: "Git-flow 使用笔记"
 date: 2012-03-12 16:09
-categories: [Dev, Share]
 ---
 
 [git-flow][1] 原理：[A successful Git branching model][2]，两篇不错的中文翻译： [Git开发管理之道][3]，[一个成功的Git分支模型][4]。

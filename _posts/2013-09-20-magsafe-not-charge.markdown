@@ -2,7 +2,6 @@
 layout: post
 title: "MBP 不能充电解决"
 date: 2013-09-20 09:28
-categories: [Share]
 ---
 
 MBP 电源适配器不能充电，各种插拔都无效，真以为要悲剧了，搜到一个办法：

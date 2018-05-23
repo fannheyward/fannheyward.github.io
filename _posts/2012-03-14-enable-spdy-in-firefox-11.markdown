@@ -2,7 +2,6 @@
 layout: post
 title: "Enable SPDY in Firefox 11"
 date: 2012-03-14 09:41
-categories: [Share]
 ---
 
 [SPDY][1] is a new network protocol developed by Google for faster web. Google Chrome has a build-in support of SPDY long long ago. Now Firefox brings SPDY support in Firefox 11, but is disabled by default. You can enable it as follow:

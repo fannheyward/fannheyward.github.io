@@ -2,7 +2,6 @@
 layout: post
 title: "UITaleView 多选"
 date: 2012-07-13 10:13
-categories: [Dev]
 ---
 
 效果就是 cell.contentView 右移，左侧留一空圆，点击选中，再点取消选中。

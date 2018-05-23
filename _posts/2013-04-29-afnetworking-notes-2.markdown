@@ -2,7 +2,6 @@
 layout: post
 title: "AFNetworking 学习笔记二"
 date: 2013-04-29 21:02
-categories: [Dev]
 ---
 
 [AFNetworking 学习笔记][1] 的后续，记录一些 AFN 比较隐蔽的知识点。

@@ -2,7 +2,6 @@
 layout: post
 title: "New Objective-C Literals"
 date: 2012-11-21 21:17
-categories: [Dev]
 ---
 
 NSArray:

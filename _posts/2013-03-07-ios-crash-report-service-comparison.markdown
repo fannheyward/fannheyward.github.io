@@ -2,7 +2,6 @@
 layout: post
 title: "iOS Crash Report Service Comparison"
 date: 2013-03-07 23:19
-categories: [Dev]
 ---
 
 实验对比一下现有的 iOS Crash report 服务。包括 [Google Analytics(GA)][1], [Crashlytics][2], [TestFlight][3], [HockeyApp][4]/[QuincyKit][5]/[HockeyKit][6], [Crittercism][7], [Bugsense][8], [Flurry][9].

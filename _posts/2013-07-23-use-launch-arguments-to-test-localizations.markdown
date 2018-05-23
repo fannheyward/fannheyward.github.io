@@ -2,7 +2,6 @@
 layout: post
 title: "通过 Xcode 启动参数测试 App 本地化"
 date: 2013-07-23 18:07
-categories: [Dev]
 ---
 
 以往测试 App 本地化就是通过切换系统语言来做，甚是麻烦，其实可以用 Xcode 启动参数强制 App 用指定语言：

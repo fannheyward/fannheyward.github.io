@@ -2,7 +2,6 @@
 layout: post
 title: "多 Target 下不同的 Bundle Display Name"
 date: 2012-03-25 15:32
-categories: [Dev, Share]
 ---
 
 真不好用一个标题来概括这个东西。Xcode 4.2+ 在项目多语言包 `xx.lproj` 里引入了一个叫 `InfoPlist.strings` 的文件，可以对同一个 App 在不同系统语言下显示不同的 Display Name。比如：

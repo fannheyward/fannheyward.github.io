@@ -2,7 +2,6 @@
 layout: post
 title: "git cherry-pick"
 date: 2013-10-26 21:38
-categories: [Dev]
 ---
 
 > git-cherry-pick - Apply the changes introduced by some existing commits.

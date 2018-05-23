@@ -2,7 +2,6 @@
 layout: post
 title: "NSURLConnection 在页面滑动时继续执行"
 date: 2013-09-20 11:04
-categories: [Dev]
 ---
 
 这篇笔记只是为了清掉 BlogTodos，实际开发中用了 AFN 等是不会遇到这个问题。当然也可以作为原理理解。

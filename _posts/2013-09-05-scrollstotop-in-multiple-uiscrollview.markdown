@@ -2,7 +2,6 @@
 layout: post
 title: "多 UIScrolllView 下点击状态栏回到顶部"
 date: 2013-09-05 11:08
-categories: [Dev]
 ---
 
 iOS 下 UITableView/UIScrollView 有个特性：点击状态栏回到顶部。如果当前 view 下有多个 scrollView，或者多个 tableView 嵌套，点击回到顶部就无效，因为系统不知道该响应哪个，索性就全部禁用。文档：

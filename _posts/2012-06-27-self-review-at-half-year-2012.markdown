@@ -2,7 +2,6 @@
 layout: post
 title: "2012 年中总结"
 date: 2012-06-27 23:44
-categories: [Life]
 ---
 
 2012 上半年小结。

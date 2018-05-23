@@ -2,7 +2,6 @@
 layout: post
 title: "Dev 放权"
 date: 2013-09-18 22:55
-categories: [Life]
 ---
 
 最近的一点反思。

@@ -2,7 +2,6 @@
 layout: post
 title: "TP-Link WR941N 刷 OpenWrt"
 date: 2012-11-29 09:47
-categories: [Share]
 ---
 
 硬件版本 TP-Link WR941N V4/V5 00000000，软件版本 3.11.7 build 100723，从 [OpenWrt trunk][1] 下载对应固件 openwrt-ar71xx-generic-tl-wr941nd-v4-squashfs-factory.bin。其他型号参考 [Table of Hardware][2] 下载固件。

@@ -2,7 +2,6 @@
 layout: post
 title: "Only When"
 date: 2014-04-15 09:06:28 +0800
-categories: [Life]
 ---
 
 > Well you only need the light when it’s burning low    

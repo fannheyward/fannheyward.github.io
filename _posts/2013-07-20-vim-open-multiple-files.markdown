@@ -2,7 +2,6 @@
 layout: post
 title: "Vim open multiple files"
 date: 2013-07-20 10:56
-categories: [Dev]
 ---
 
 ```

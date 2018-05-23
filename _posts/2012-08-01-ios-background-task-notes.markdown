@@ -2,7 +2,6 @@
 layout: post
 title: "iOS Background Task Notes"
 date: 2012-08-01 15:49
-categories: [Dev]
 ---
 
 iOS 4+ 支持 audio、location、voip 后台常驻任务，除此以外 App 还可以向系统申请额外一段时间（十分钟）在后台执行某些任务，比如进入后台后发送操作日志等。

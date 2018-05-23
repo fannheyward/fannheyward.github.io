@@ -2,7 +2,6 @@
 layout: post
 title: "通过自签名 SSL 证书分发安装 IPA"
 date: 2014-03-17 23:21:09 +0800
-categories: [Dev]
 ---
 
 iOS 7.1 通过 `itms-services://` 安装 IPA 时要求 `ipa.plist` 必须 HTTPS 环境，不然会提示证书错误而无法安装。简单解决可以把 ipa.plist 放在 Dropbox 等支持 HTTPS 访问的地方，不过这样就不方便一键打包部署。其实可以通过自签名的 SSL 证书来解决这个问题。

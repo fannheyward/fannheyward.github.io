@@ -2,7 +2,6 @@
 layout: post
 title: "Nginx Gzip"
 date: 2014-06-06 21:22:50 +0800
-categories: [Dev]
 ---
 
 ```

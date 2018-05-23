@@ -2,7 +2,6 @@
 layout: post
 title: "OS X 下用 IPFW 作端口转发"
 date: 2013-01-22 23:51
-categories: [Share]
 ---
 
 用 ipfw 监听本地 80 端口然后转发到 8080 等端口，方便本地开发时调试操作。ipfw 是 OS X 自带的防火墙程序，类似 Linux 下的 iptables。

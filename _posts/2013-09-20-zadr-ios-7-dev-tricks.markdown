@@ -2,7 +2,6 @@
 layout: post
 title: "@zadr's iOS 7 dev tricks"
 date: 2013-09-20 20:30
-categories: [Dev]
 ---
 
 [@zadr][1] 在 iOS 7 正式发布几个小时后在 Twitter 上连续发了一些 iOS 7 SDK 小技巧，大部分都是我还不知道的东西，所以摘录一下，版权归 [@zadr][1] 完全所有。

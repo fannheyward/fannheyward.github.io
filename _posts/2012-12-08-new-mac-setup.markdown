@@ -2,7 +2,6 @@
 layout: post
 title: "New Mac Setup"
 date: 2012-12-08 13:58
-categories: [Share]
 ---
 
 换了 SSD，重新配置了开发环境，简单留个笔记。

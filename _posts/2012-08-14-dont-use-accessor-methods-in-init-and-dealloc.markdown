@@ -2,7 +2,6 @@
 layout: post
 title: "Don't use accessor methods in init and dealloc"
 date: 2012-08-14 11:53
-categories: [Dev]
 ---
 
 苹果在 WWDC 2012 Session 413 - Migrating to Modern Objective-C 里强调不要在 init 和 dealloc 里使用 accessor methods：

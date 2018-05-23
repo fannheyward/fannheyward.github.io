@@ -2,7 +2,6 @@
 layout: post
 title: "加速 Xcode 文档搜索"
 date: 2012-01-09 11:27
-categories: [Dev]
 ---
 
 Xcode 的文档搜索速度实在是不给力，因为 Xcode 是实时的索引所有 Doc Sets 来查找。解决方法：

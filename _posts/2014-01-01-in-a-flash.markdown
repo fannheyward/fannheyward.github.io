@@ -2,7 +2,6 @@
 layout: post
 title: "匆匆"
 date: 2014-01-01 20:54
-categories: [Life]
 ---
 
 李剑青 -「匆匆」:

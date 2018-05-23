@@ -2,7 +2,6 @@
 layout: post
 title: "iOS 6 下自动旋转的变化"
 date: 2012-10-22 22:12
-categories: [Dev]
 ---
 
 iOS 6 SDK 中的屏幕自动旋转有了一些变化，简单纪录之。举例：Master-Detail 类型 App，master ViewController 不支持屏幕旋转， detail ViewController 支持屏幕旋转。

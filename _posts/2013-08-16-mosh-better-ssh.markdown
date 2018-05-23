@@ -2,7 +2,6 @@
 layout: post
 title: "Mosh - Better SSH"
 date: 2013-08-16 12:42
-categories: [Share]
 ---
 
 [Mosh][1] 相比 SSH 的优点：

@@ -2,7 +2,6 @@
 layout: post
 title: "iOS 7 Background Fetch"
 date: 2014-02-25 21:27
-categories: [Dev]
 ---
 
 iOS 7 新加了三个后台任务 API: `Background Fetch` 后台获取，`Silent Remote Notifications` 静默推送，`￼Background Transfer Service` 后台传输。

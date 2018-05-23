@@ -2,7 +2,6 @@
 layout: post
 title: "Setup Mac Development Environment"
 date: 2012-01-11 11:17
-categories: [Dev]
 ---
 
 1. System Software Update.

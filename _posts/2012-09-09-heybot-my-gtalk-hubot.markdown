@@ -2,7 +2,6 @@
 layout: post
 title: "Heybot - My Gtalk Hubot"
 date: 2012-09-09 21:31
-categories: [Share]
 ---
 
 Github 是非常好的学习地方，Github Inc 这家公司也很有意思，一帮 Geek 程序员做了很多很好玩的东西，比如 [Hubot][1], [Play][2]。Hubot 是一个机器人，可以音乐、搜索、搞怪逗乐等，在 Github 内部他们还用 Hubot 部署代码。开源版本的 Hubot 目前不支持代码部署等高级命令，不过可以自己写脚本（CoffeeScript）进行扩展。

@@ -2,7 +2,6 @@
 layout: post
 title: "NSMutableAttributedString Notes"
 date: 2013-03-01 11:48
-categories: [Dev]
 ---
 
 Core Text 针对文本段落支持的样式属性：

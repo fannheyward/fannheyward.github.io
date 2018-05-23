@@ -2,7 +2,6 @@
 layout: post
 title: "批量杀进程"
 date: 2013-10-30 21:30
-categories: [Dev]
 ---
 
 批量杀掉包含某一关键字的进程：

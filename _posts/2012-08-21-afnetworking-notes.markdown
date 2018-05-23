@@ -2,7 +2,6 @@
 layout: post
 title: "AFNetworking 学习笔记"
 date: 2012-08-21 16:38
-categories: [Dev]
 ---
 
 > 1. 这篇笔记是在 AFN v0.10.1 时候写的，AFN v1.0 以后加入了不少新东西，比如 SSL 支持，不过整体结构没有变化。

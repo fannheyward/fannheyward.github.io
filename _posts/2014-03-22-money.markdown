@@ -2,7 +2,6 @@
 layout: post
 title: "Money"
 date: 2014-03-22 23:29:20 +0800
-categories: [Life]
 ---
 
 > 没钱，意味着失去了选择的能力。

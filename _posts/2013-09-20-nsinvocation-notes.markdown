@@ -2,7 +2,6 @@
 layout: post
 title: "NSInvocation Notes"
 date: 2013-09-20 09:35
-categories: [Dev]
 ---
 
 iOS 中一般用 `performSelector` 系列方法调用某个对象的方法消息，但是参数过多就不太方便，这时候就可以用 NSInvocation。一个简单的例子：

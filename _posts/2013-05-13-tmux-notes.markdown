@@ -2,7 +2,6 @@
 layout: post
 title: "tmux 使用笔记"
 date: 2013-05-13 14:25
-categories: [Dev]
 ---
 
 1. `tmux new -s name` 新建名字为 name 的会话(session)，等同 `tmux new-session -s name`, 指定名字方便 attach。

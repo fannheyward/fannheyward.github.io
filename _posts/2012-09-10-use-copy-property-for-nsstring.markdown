@@ -2,7 +2,6 @@
 layout: post
 title: "Use copy property for NSString"
 date: 2012-09-10 15:38
-categories: [Dev]
 ---
 
 一个简短例子来说明一下为什么 NSString @property 最好用 `copy` 而不是 `retain`:

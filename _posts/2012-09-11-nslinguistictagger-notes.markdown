@@ -2,7 +2,6 @@
 layout: post
 title: "NSLinguisticTagger Notes"
 date: 2012-09-11 11:52
-categories: [Dev]
 ---
 
 NSLinguisticTagger 是 iOS 5+/OS X 10.7+ 引入的自然语言智能分析类。一个简单的 sample：

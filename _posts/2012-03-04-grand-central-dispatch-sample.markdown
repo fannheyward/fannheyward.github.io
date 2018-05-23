@@ -2,7 +2,6 @@
 layout: post
 title: "Grand Central Dispatch Sample"
 date: 2012-03-04 22:26
-categories: [Dev]
 ---
 
 说来惭愧，做 iDev 一年多了，最近才第一次在正式项目中使用 GCD。做个笔记。

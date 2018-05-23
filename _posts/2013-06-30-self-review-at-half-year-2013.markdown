@@ -2,7 +2,6 @@
 layout: post
 title: "2013 年中总结"
 date: 2013-06-30 20:17
-categories: [Life]
 ---
 
 2013 年上半年小结。

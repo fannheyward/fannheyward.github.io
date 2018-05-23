@@ -2,7 +2,6 @@
 layout: post
 title: "RegexKitLite Error: Undefined symbols for architecture i386"
 date: 2011-12-08 15:39
-categories: [Dev]
 ---
 
 RegexKitLite 编译错误：

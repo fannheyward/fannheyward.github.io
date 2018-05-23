@@ -2,7 +2,6 @@
 layout: post
 title: "Best Practices for RESTful API"
 date: 2013-07-15 21:52
-categories: [Dev]
 ---
 
 做服务端开发，免不了有对外接口，正好看到 [Best Practices for Designing a Pragmatic RESTful API][1]，简单摘抄做个笔记。

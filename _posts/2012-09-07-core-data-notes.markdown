@@ -2,7 +2,6 @@
 layout: post
 title: "Core Data Notes"
 date: 2012-09-07 18:38
-categories: [Dev]
 ---
 
 两篇很不错的 Core Data Tutorial, [Getting Started][1]，[How to use NSFetchedResultsController][2]。

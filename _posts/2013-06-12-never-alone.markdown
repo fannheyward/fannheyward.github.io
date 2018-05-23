@@ -2,7 +2,6 @@
 layout: post
 title: "莫忘初衷"
 date: 2013-06-12 21:57
-categories: [Life]
 ---
 
 你好久没说梦想  说到眼睛发亮

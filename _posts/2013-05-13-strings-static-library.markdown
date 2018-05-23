@@ -2,7 +2,6 @@
 layout: post
 title: "使用 strings 查看静态库字符串"
 date: 2013-05-13 22:24
-categories: [Dev]
 ---
 
 起标题真费劲，意思就是用 OS X 的 `strings` 命令查看一个静态库是否包含某个字符串。比如 lib.a 是否用到了 uniqueIdentifier (苹果新规用了 UUID 的应用将会被拒)。

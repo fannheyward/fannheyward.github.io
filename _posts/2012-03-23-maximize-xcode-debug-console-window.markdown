@@ -2,7 +2,6 @@
 layout: post
 title: "最大化 Xcode Debug Console 窗口"
 date: 2012-03-23 18:51
-categories: [Dev, Share]
 ---
 
 参考 [How to get back the Console window in XCode4][1] 做了一点点改动，Run 的时候自动切换到 Console Tab 并且是最大化展示，效果还不错。

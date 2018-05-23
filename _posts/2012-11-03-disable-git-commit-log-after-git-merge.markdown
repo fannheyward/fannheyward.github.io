@@ -2,7 +2,6 @@
 layout: post
 title: "禁用 git merge 完成后的提交说明"
 date: 2012-11-03 20:03
-categories: [Share]
 ---
 
 Git 1.7.10+ 版本对 `git merge` 做了一个改动，就是 merge 成功后会自动打开编辑器等待输入 merge 提交说明，而之前版本是自动完成这个 log。Linus 大神说之前的做法其实是一个设计失误 [via](http://thread.gmane.org/gmane.linux.kernel/1191100/focus=181362)：

@@ -2,7 +2,6 @@
 layout: post
 title: "Fucking Stupid Error"
 date: 2013-08-07 23:57
-categories: [Dev]
 ---
 
 今天修改代码部署后造成线上服务出现严重错误，记一下这个教训。

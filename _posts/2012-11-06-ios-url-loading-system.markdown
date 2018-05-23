@@ -2,7 +2,6 @@
 layout: post
 title: "iOS URL Loading System"
 date: 2012-11-06 10:37
-categories: [Share]
 ---
 
 iOS 整个网络请求系统分为这几部分：

@@ -2,7 +2,6 @@
 layout: post
 title: "2014 年中总结"
 date: 2014-06-30 17:21:57 +0800
-categories: [Life]
 ---
 
 ### 工作

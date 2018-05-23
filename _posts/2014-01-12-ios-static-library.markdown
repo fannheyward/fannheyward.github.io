@@ -2,7 +2,6 @@
 layout: post
 title: "Make an iOS Static Library"
 date: 2014-01-12 21:55
-categories: [Dev]
 ---
 
 做一个 iOS 静态库需要注意的东西：

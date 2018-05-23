@@ -2,7 +2,6 @@
 layout: post
 title: "UISegmentedControl error on iOS 4.x"
 date: 2012-07-18 21:35
-categories: [Dev]
 ---
 
 Code 1:

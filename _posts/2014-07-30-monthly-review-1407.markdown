@@ -2,7 +2,6 @@
 layout: post
 title: "Monthly Review 2014-07"
 date: 2014-07-30 21:01:25 +0800
-categories: [Life]
 ---
 
 从这个月开始会在月底做一次月总结，其实最主要的目的是强迫自己每个月写点什么。

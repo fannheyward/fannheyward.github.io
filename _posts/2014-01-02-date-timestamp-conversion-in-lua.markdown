@@ -2,7 +2,6 @@
 layout: post
 title: "Date Timestamp Conversion in Lua"
 date: 2014-01-02 10:16
-categories: [Dev]
 ---
 
 #### Datetime to Timestamp

@@ -2,7 +2,6 @@
 layout: post
 title: "NSDateFormatter 返回一年前时间"
 date: 2013-03-02 13:54
-categories: [Dev]
 ---
 
 `NSDateFormatter` 的一个小陷阱：
