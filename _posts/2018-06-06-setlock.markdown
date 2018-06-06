@@ -1,0 +1,22 @@
+---
+layout: post
+title: setlock
+date: 2018-06-06 15:23:11 +0800
+---
+    
+> setlock - runs another program with a file locked.
+
+`setlock [-nNxX] fn child`，简单说 setlock 会打开 fn 并加锁，然后执行 child。如果 lock 失败，可以指定 child 退出或等待：
+
+```
+-n: fn 被其他进程锁住，setlock 放弃执行 child
+-N: fn 被其他进程锁住，setlock 会等待，直到重新加锁，并执行 child
+-x: fn 打开失败或已加锁，setlock exit 0
+-X: fn 打开失败或已加锁，setlock 输出错误并退出
+```
+
+setlock 可以和 crontab 搭配使用，比如某个任务每十分钟执行一次，如果上一次执行尚未退出，不再开启新任务:
+
+```
+*/10 * * * * /usr/bin/setlock -n /tmp/test.lock /home/x.sh
+```
