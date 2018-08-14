@@ -13,3 +13,7 @@ date: 2018-08-14 10:43:26 +0800
 
 * zj - move down to next fold
 * zk - move up to previous fold
+
+```
+nnoremap <Space> za
+```
