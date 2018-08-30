@@ -1,0 +1,9 @@
+---
+layout: post
+title: Programming is the art of adding bugs to an empty text file
+date: 2018-08-30 11:36:15 +0800
+---
+
+Louis Srygley:
+
+> Without requirements or design, programming is the art of adding bugs to an empty text file.
