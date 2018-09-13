@@ -60,4 +60,10 @@
   <script async src='https://cdn.jsdelivr.net/npm/autotrack@2.4.1/autotrack.js'></script>
   <!-- End Google Analytics -->
 
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js', {scope: '/'});
+    }
+  </script>
+
 </footer>
