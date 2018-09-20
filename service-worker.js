@@ -1,9 +1,3 @@
-caches.keys().then(function (keys) {
-  keys.map(function (key) {
-    caches.delete(key);
-  })
-})
-
 this.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('v1').then(function (cache) {
