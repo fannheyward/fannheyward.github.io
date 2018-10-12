@@ -51,6 +51,8 @@ ruleset(name="ngx_ruleset"){
 
 * [Logging to syslog](http://nginx.org/en/docs/syslog.html)
 * [rsyslog](https://www.rsyslog.com/doc/v7-stable/configuration/filters.html)
+* [Rsyslog configuration: forwarding log files with file names, handle multi-line messages, no messages lost on server downtime, failover server][2]
 
 
 [1]: https://github.com/cloudflare/lua-resty-logger-socket
+[2]:https://selivan.github.io/2017/02/07/rsyslog-log-forward-save-filename-handle-multi-line-failover.html
