@@ -45,6 +45,11 @@ ruleset(name="ngx_ruleset"){
         stop
     }
 
+    if $programname == 'nginx_crit' {
+        /var/log/ngx_lua.log
+        stop
+    }
+
     action(type="omfile" file="/var/log/ngx.log" template="json")
 }
 ```
