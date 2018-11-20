@@ -1,0 +1,117 @@
+---
+layout: post
+title: AWS Services List (2018)
+date: 2018-11-20 16:13:08 +0800
+---
+
+> 一句话说清楚 AWS X 是什么
+
+计算：
+* EC2
+    - Amazon Elastic Compute Cloud，或者叫亚马逊的虚拟机服务
+    - 一台托管在 AWS 的电脑/服务器
+* ECS
+    - Amazon Elastic Container Service
+    - 亚马逊 Docker 服务，配合内部 Elastic Container Registry(ECR) 做服务容器化
+    - 还有 EKS(ECS for Kubernetes)
+* Lambda
+    - AWS App Scripts
+    - 只跑代码，不需要考虑服务器问题
+    - 可访问其他服务资源
+
+存储：
+* S3
+    - Amazon Simple Storage Service，或者叫亚马逊无限量 FTP 服务器
+    - 存储网站图片、视频、备份等
+    - 不同服务间文件共享
+* EFS
+    - Amazon Elastic File System
+* EBS
+    - Amazon Elastic Block Store
+    - EFS 和 EBS 很像，简单理解就是 EBS 是一个可以挂载到 EC2 的硬件磁盘，EFS 是一个网络文件系统
+* Glacier
+    - 云归档服务
+    - 成本极低的数据存储和长期备份
+
+数据库：
+* RDS
+    - Amazon Relational Database Service
+    - 亚马逊数据库服务，帮你做好备份、扩容等
+* Aurora
+    - 兼容 MySQL/PostgreSQL 的分布式关系型数据库
+* Elasticache
+    - 亚马逊 Redis/Memcached 服务
+* DynamoDB
+    - 亚马逊 NoSQL 服务
+    - KV 存储服务
+* RedShift
+    - PB 级数据仓库
+
+网关和内容分发：
+* Cloudfront
+    - 亚马逊 CDN 服务
+* Route53
+    - 域名注册，DNS 服务
+* ELB
+    - Elastic Load Balancing，负载均衡
+* API Gateway
+    - API 网关代理
+    - 管理后端 API，比如流量控制，监控，版本切换，A/B 测试分流等
+
+开发者工具：
+* CodeCommit
+    - 私有 Git 服务器
+* CodeBuild
+    - CI 系统
+* CodePipeline
+    - 持续交付发布
+* Code Deploy
+    - 自动化部署
+    - 尤其适用于同时部署到多个 EC2
+* Cloud9
+    - 云端 IDE
+
+移动应用服务：
+* Cognito
+    - 亚马逊 OAuth 服务
+    - 让用户使用社交网站信息注册、登录
+* Device Farm
+    - 在真实设备上做应用测试
+    - 提供视频、截图、日志等信息
+* Mobile Analytics
+    - 收集、查看应用分析数据
+    - 类似 Flurry、Google Analytics
+
+Web 基础服务：
+* SES
+    - Amazon Simple Email Service
+    - 亚马逊邮件发送服务，包括邮件通知、订阅等
+* SNS
+    - Amazon Simple Notification Service
+    - 向用户发 push、邮件、短信
+* SQS
+    - Amazon Simple Queue Service
+    - 亚马逊消息队列服务
+* WAF
+    - Web 应用防火墙
+* CloudSearch
+    - 或者叫亚马逊全文搜索服务
+* Elastic Transcoder
+    - 亚马逊视频转码服务
+
+其他，包括 AWS 安全，管理，监控等：
+* IAM
+    - AWS Identity and Access Management
+    - 管理用户组，管理资源访问权限
+* CloudTrail
+    - 跟踪 AWS 用户活动和 API 使用状况
+* CloudWatch
+    - AWS 服务监控
+* Config
+    - 记录、评估 AWS 资源配置
+* OpsWorks
+    - 用 Chef 和 Puppet 实现操作自动化
+* Trusted Advisor
+    - 对使用的 AWS 资源进行成本分析、安全建议等
+* Inspector
+    - 自动安全评估服务，评估应用程序风险、漏洞
