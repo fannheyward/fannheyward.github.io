@@ -17,7 +17,7 @@ print(os.time(dt))
 
 ``` lua
 local ts = os.time()
-print(os.date('%Y-%m-%d %H:%M:%S', ts)
+print(os.date('%Y-%m-%d %H:%M:%S', ts))
 
 -- 2013-12-25 22:09:51
 ```
