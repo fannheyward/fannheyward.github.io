@@ -62,9 +62,7 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      var t = new Date();
-      var sw = '/service-worker.js?' + t.getDate();
-      navigator.serviceWorker.register(sw, {scope: '/'});
+      navigator.serviceWorker.register('/service-worker.js', {scope: '/'});
     }
   </script>
 
