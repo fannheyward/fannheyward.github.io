@@ -10,6 +10,6 @@ Xcode 的文档搜索速度实在是不给力，因为 Xcode 是实时的索引�
 1. 第三方文档搜索工具，比如 Ingredients、AppKiDo，缺点是没法和 Xcode 完美结合，比如 Option+Click 快速查找。
 1. 修改 Find Options 来减少一些索引，只做 iOS 就没必要选 Mac 的 Doc Sets. 另外 Match Type 选 **Prefix** 也会快很多。可以参考下面这个 Find Options 设置。
 
-![](http://ww4.sinaimg.cn/mw600/92bf69fbgw1dow1d4wrymj.jpg)
+![speedup Xcode doc search](https://i.loli.net/2019/04/29/5cc695e762320.jpg)
 
 感谢 @[jjgod](http://www.v2ex.com/t/22088#reply16) 分享的小技巧。

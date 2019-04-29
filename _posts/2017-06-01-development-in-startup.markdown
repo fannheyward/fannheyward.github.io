@@ -4,4 +4,4 @@ title: Development in Startup
 date: 2017-06-01 15:37:35 +0800
 ---
 
-![dev-culture](https://ws4.sinaimg.cn/large/006tKfTcly1fhfsz4xbp2g30cs09kb2a.gif)
+![dev-culture](https://i.loli.net/2019/04/29/5cc695fa3ee98.gif)
