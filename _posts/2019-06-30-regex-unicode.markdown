@@ -16,3 +16,5 @@ echo '中文/繁體/片仮名／かたかな／カタカナ/katakana' | rg "\p{H
 echo '中文@mail.com' | rg "\p{Common}"                              > @ .
 echo '中文@mail.com' | rg "\p{Latin}"                               > mail com
 ```
+
+[Unicode Scripts](https://www.regular-expressions.info/unicode.html#script) for more.
