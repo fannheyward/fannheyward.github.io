@@ -20,7 +20,7 @@ date: 2019-07-31 16:28:11 +0800
     <value>/home/web/hadoop/etc/hadoop/excludes</value>
   </property>
 ```
-3. 修改 `etc/hadoop/mapred-site.xml`:
+3. 修改 `etc/hadoop/mapred-site.xml`, 这个是下线 nodemanager
 ```
   <property>
     <name>mapred.hosts.exclude</name>
