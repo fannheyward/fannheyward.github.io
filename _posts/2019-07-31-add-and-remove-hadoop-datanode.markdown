@@ -33,3 +33,5 @@ date: 2019-07-31 16:28:11 +0800
 6. 在 NameNode 执行 `./bin/hadoop dfsadmin -refreshNodes`
 7. `./bin/hadoop dfsadmin -report` 查看要删除的节点状态变化 `Normal -> Decommission in progress -> Decommissioned`
 8. 在要删除的节点 `./sbin/hadoop-daemon.sh stop datanode`，等待 Admin State 变更为 Dead
+
+- https://blog.csdn.net/Mark_LQ/article/details/53393081
