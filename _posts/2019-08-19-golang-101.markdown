@@ -1,0 +1,28 @@
+---
+layout: post
+title: 如何写出优雅的 Golang 代码
+date: 2019-08-19 18:25:17 +0800
+external-url: https://draveness.me/golang-101
+---
+
+> 原文是一篇非常赞的工程总结，推荐。这里记录一些笔记
+
+1. 代码规范，`gofmt`, `goimports`, `golangci-lint` 等，配合 CI 自动化
+2. 目录结构 [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
+    1. `/pkg` 可以被外部使用包模块
+    2. `/internal` 私有模块，不可被外部使用
+    3. 不要有 `/src` 目录
+    4. `/cmd` 生成可执行文件
+    5. `/api` 对外提供的 API 模块
+    6. 不要有 `model/controller` 这样的模块，按照职责拆分，**面向接口**开发
+3. 不要在 `init` 做资源初始化，比如 rpc/DB/Redis 等，因为 init 会被**隐式**执行，会默默初始化资源连接
+4. 推荐的做法是 Client + NewClient，显式初始化连接
+5. init 阶段适合做一些简单、轻量的前置条件判断，比如 `flag` 设置
+6. 使用 [GoMock](https://github.com/golang/mock)/[sqlmock](https://github.com/DATA-DOG/go-sqlmock)/[httpmock](https://github.com/jarcoal/httpmock)/[monkey](https://github.com/bouk/monkey) 做 mock + 测试
+
+[Simple techniques to optimise Go programs](https://stephen.sh/posts/quick-go-performance-improvements) 介绍了一些简单却非常高效的性能提升方法：
+
+- Avoid using structures containing pointers as map keys for large maps, use [ints or bytes](https://medium.com/@rf_14423/did-the-big-allocations-of-ram-contain-pointers-directly-or-indirectly-actual-pointers-strings-76ed28c0bc92)
+- Use strings.Builder to build up strings
+- Use strconv instead of `fmt.Sprintf`
+
