@@ -4,6 +4,10 @@ title: Octotree for Safari
 date: 2019-05-23 15:32:03 +0800
 ---
 
+**From Safari 13, you can only install extension from Mac App Store.**
+
+----
+
 ```sh
 brew install node@10
 export PATH="/usr/local/opt/node@10/bin:$PATH"
@@ -25,3 +29,4 @@ mv ~/src/octotree/tmp/safari/octotree.safariextension .
 1. Enable `Developer` menu in Safari
 2. `Developer - Show Extension Builder`
 3. Add octotree.safariextension and Run
+
