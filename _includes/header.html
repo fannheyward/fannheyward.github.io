@@ -17,11 +17,8 @@
       <div class="trigger">
         <a class="page-link" href="{{ "/atom.xml" | prepend: site.baseurl }}">RSS</a>
         <a class="page-link" href="{{ "/blog/archives/" | prepend: site.baseurl }}">Archives</a>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="page-link" href="{{ "/projects/" | prepend: site.baseurl }}">Projects</a>
+        <a class="page-link" href="{{ "/about/" | prepend: site.baseurl }}">About</a>
       </div>
     </nav>
 

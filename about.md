@@ -11,7 +11,7 @@ Heyward Fann, aka **fannheyward** on the web, is a developer based in Beijing, C
 - Python
 - JavaScript / TypeScript
 - iOS (Objective-C)
-- Vim
+- Neovim
 
 Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <fannheyward@gmail.com>.
 

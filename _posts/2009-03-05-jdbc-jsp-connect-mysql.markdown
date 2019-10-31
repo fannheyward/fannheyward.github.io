@@ -7,7 +7,7 @@ title: "JSP连接MySql数据库"
 
 JSP 使用 Mysql 主要是通过 `com.mysql.jdbc.Driver` 驱动，Tomcat 一般都自带的有，～\tomcat\lib\mysql-connector-java-5.1.6-bin.jar 有这个包就可以。新建 jsp-mysql.jsp 页面：
 
-```
+```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <%@ page contentType="text/html;charset=utf-8" %>
 <%@ page language="java" %>
