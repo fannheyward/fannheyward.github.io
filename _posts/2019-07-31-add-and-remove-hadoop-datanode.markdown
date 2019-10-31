@@ -44,4 +44,24 @@ date: 2019-07-31 16:28:11 +0800
 
 可以用 `hdfs fsck / -delete` 来检查并删除有损坏的 blocks.
 
+### 调整 JournalNode
+
+1. 修改 `etc/hadoop/hdfs-site.xml`:
+
+```xml
+<property>
+    <name>dfs.namenode.shared.edits.dir</name>
+    <value>qjournal://hadoop01:8485;hadoop02:8485;hadoop03:8485/cluster</value>
+  </property>
+```
+
+1. 同步到所有节点
+2. 如果是新增节点，要同步 `dfs.journalnode.edits.dir` 下 edits 文件
+3. 在调整的 journalnode 节点启动/关停: `./sbin/hadoop-daemon.sh start journalnode`
+4. 重启 standby NameNode: `sbin/hadoop-daemon.sh stop|start namenode`
+5. 切换节点为 active: `hdfs haadmin -failover nn1 nn2`，重启其他 namenode
+
 - [https://blog.csdn.net/Mark_LQ/article/details/53393081](https://blog.csdn.net/Mark_LQ/article/details/53393081)
+- [https://www.jianshu.com/p/727da7ba438a](https://www.jianshu.com/p/727da7ba438a)
+- [https://www.iteye.com/blog/shift-alt-ctrl-2102571](https://www.iteye.com/blog/shift-alt-ctrl-2102571)
+
