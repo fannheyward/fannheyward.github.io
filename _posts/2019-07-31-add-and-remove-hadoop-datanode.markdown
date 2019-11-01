@@ -9,6 +9,7 @@ date: 2019-07-31 16:28:11 +0800
 1. NameNode 添加节点 `etc/hadoop/slaves`
 1. 同步 `etc/hadoop` 配置
 1. 在新节点 `./sbin/hadoop-daemon.sh start datanode`
+1. 在 NameNode 刷新 `./bin/hadoop dfsadmin -refreshNodes`
 
 ### 删除节点
 
@@ -60,6 +61,7 @@ date: 2019-07-31 16:28:11 +0800
 3. 在调整的 journalnode 节点启动/关停: `./sbin/hadoop-daemon.sh start journalnode`
 4. 重启 standby NameNode: `sbin/hadoop-daemon.sh stop|start namenode`
 5. 切换节点为 active: `hdfs haadmin -failover nn1 nn2`，重启其他 namenode
+6. 检查 NN 状态 `hdfs haadmin -getServiceState nn1`
 
 - [https://blog.csdn.net/Mark_LQ/article/details/53393081](https://blog.csdn.net/Mark_LQ/article/details/53393081)
 - [https://www.jianshu.com/p/727da7ba438a](https://www.jianshu.com/p/727da7ba438a)
