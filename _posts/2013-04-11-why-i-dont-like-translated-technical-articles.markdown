@@ -20,7 +20,7 @@ date: 2013-04-11 23:09
 
 注意看第三条。
 
-![](https://lh3.googleusercontent.com/-Zzvkug3syJs/UWbZfxMnHSI/AAAAAAAAD44/eJ5hsUxZOS8/s307/fail.png)
+![fail.png](https://i.loli.net/2019/11/11/7N92AE4SaLmd8GB.png)
 
 技术文看中文翻译版本确实省时省力，但是如果翻译质量不好或者出错的话就会被带到沟里。其实技术文章的词汇非常集中，同一技术点的单词翻来覆去就那几个，多看几篇文档就熟了。
 

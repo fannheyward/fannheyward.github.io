@@ -7,7 +7,7 @@ date: 2012-08-21 16:38
 > 1. 这篇笔记是在 AFN v0.10.1 时候写的，AFN v1.0 以后加入了不少新东西，比如 SSL 支持，不过整体结构没有变化。
 > 1. 后续跟进了一篇 [AFNetworking Notes 2][7]
 
-![AFNetworking](https://lh3.googleusercontent.com/-KgxDNqv1-vk/UDNYRSrKBkI/AAAAAAAAC3c/QgUByH1xXEw/s640/AFN.jpg)
+![AFN.jpg](https://i.loli.net/2019/11/11/9VreQ8Tt3k7xnBR.jpg)
 
 上图来自 @mattt 对 AFN 的介绍：[Everybody Loves AFNetworking And So Can You!][1]. 学习 AFN，简单记录一下以加深自己理解。
 
@@ -15,7 +15,7 @@ AFN 的基础部分是 AFURLConnectionOperation，一个 NSOperation subclass，
 
 AFURLConnectionOperation 是一个很纯粹的网络请求 operation，可以对他进行 start/cancel/pause/resume 操作，可以获取对应的 NSURLRequest 和 NSURLResponse 数据。支持 NSInputStream/NSOutputStream，提供了 uploadPress 和 downloadProgress 以方便其他使用。
 
-```
+```obj-c
 NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://httpbin.org/ip"]];
 AFURLConnectionOperation *operation = [[AFURLConnectionOperation alloc] initWithRequest:request];
 operation.completionBlock = ^ {
@@ -30,7 +30,7 @@ operation.completionBlock = ^ {
 
 理解了 AFURLConnectionOperation 再看 AFHTTPRequestOperation 就简单很多。AFHTTPRequestOperation 是 AFURLConnectionOperation 的子类，针对 HTTP+HTTPS 协议做了一层封装，比如 statusCode、Content-Type 等，添加了请求成功和失败的回调 block，提供了 `addAcceptableContentTypes:` 以方便上层使用。
 
-```
+```obj-c
 NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://httpbin.org/robots.txt"]];
 AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
 [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -47,7 +47,7 @@ AFJSONRequestOperation 是 AFHTTPRequestOperation 的子类，针对 JSON 类型
 
 AFN 的 JSON encode/decode 处理做的非常巧妙，现在有很多 JSON 解析库，第三方的 JSONKit、SBJSON 等，iOS 5+ 自带的 NSJSONSerialization，不同的项目可能会因为不同的需求而用不同的库，AFN 就封装了一个 AFJSONUtilities，提供 `AFJSONEncode` 和 `AFJSONDecode` 两个方法，通过 `NSClassFromString` 和 `NSSelectorFromString` 来查找项目中使用的 JSON 库然后进行 encode/decode。
 
-```
+```obj-c
 NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://httpbin.org/get"]];
 AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
      success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
@@ -79,7 +79,6 @@ AFN 还提供了很多模块，可以很方便的和 AFN 整合做一些工作�
 ----
 
 AFN 作者 @mattt 做东西很有自己一套思想在里面，推荐 [What I Learned From AFNetworking's GitHub Issues][5]，[视频][6]。
-
 
 [1]:https://speakerdeck.com/u/mattt/p/everybody-loves-afnetworking-and-so-can-you
 [2]:http://nshipster.com/nsoperation/

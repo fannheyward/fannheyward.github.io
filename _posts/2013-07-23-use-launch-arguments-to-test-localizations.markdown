@@ -16,7 +16,7 @@ date: 2013-07-23 18:07
 
 添加参数方法: `Product` > `Scheme` > `Edit Scheme` (or ⌘<), Arguments Passed On Launch 下添加。可以添加多个方便切换:
 
-![launch arguments to test localizations](https://lh4.googleusercontent.com/-5_NGJv0P2VI/Ue5fQ9P6_DI/AAAAAAAAEdU/OnoEMRb3KnU/d/launch-arguments.png)
+![2013-07-22-002.png](https://i.loli.net/2019/11/11/axlXUdCYoD71pLO.png)
 
 via [Using Launch Arguments to Test Localizations](http://useyourloaf.com/blog/2013/07/22/using-launch-arguments-to-test-localizations.html)
 
