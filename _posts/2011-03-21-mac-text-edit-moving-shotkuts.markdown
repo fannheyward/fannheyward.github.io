@@ -3,6 +3,8 @@ layout: post
 title: "Mac 文本编辑移动快捷键"
 ---
 
+![moving_cli](https://user-images.githubusercontent.com/345274/71775521-05272f80-2fbd-11ea-9c6a-fcc120ed17d4.png)
+
 由于 Mac 的 Unix 渊源，Mac 支持一些 Emacs 的文本编辑快捷键，主要是文本内移动。适用于 Mac 下各种文本编辑界面，Xcode 等等。
 
 - `Ctrl-f` 后一个字符
