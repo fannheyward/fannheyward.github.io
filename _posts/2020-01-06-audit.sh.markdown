@@ -1,0 +1,23 @@
+---
+layout: post
+title: audit.sh
+date: 2020-01-06 20:22:28 +0800
+---
+
+```sh
+mkdir -p /var/log/.audit
+touch /var/log/.audit/audit.log
+chown nobody:nobody /var/log/.audit/audit.log
+chmod 002 /var/log/.audit/audit.log
+chattr +a /var/log/.audit/audit.log
+```
+
+Save to `/etc/profile.d/audit.sh`：
+
+```sh
+HISTSIZE=500000
+HISTTIMEFORMAT=" "
+export HISTTIMEFORMAT
+export HISTORY_FILE=/var/log/.audit/audit.log
+export PROMPT_COMMAND='{ curr_hist=`history 1|awk "{print \\$1}"`;last_command=`history 1| awk "{\\$1=\"\" ;print}"`;user=`id -un`;user_info=(`who -u am i`);real_user=${user_info[0]};login_date=${user_info[2]};login_time=${user_info[3]};curr_path=`pwd`;login_ip=`echo $SSH_CONNECTION | awk "{print \\$1}"`;if [ ${login_ip}x == x ];then login_ip=- ; fi ;if [ ${curr_hist}x != ${last_hist}x ];then echo -E `date "+%Y-%m-%d %H:%M:%S"` $user\($real_user\) $login_ip [$login_date $login_time] [$curr_path] $last_command ;last_hist=$curr_hist;fi; } >> $HISTORY_FILE'
+```
