@@ -4,7 +4,7 @@ title: Nginx map
 date: 2018-04-26 23:06:43 +0800
 ---
 
-```
+```nginx
 map $room $room_server {
     default 192.168.1.101:8080;
     1 192.168.1.101:8080;
@@ -20,3 +20,16 @@ server {
     }
 }
 ```
+
+`split_clients` 类似的结构，可以用来做请求 A/B 测试:
+
+```nginx
+split_clients $arg_app_key $variant {
+    0.5%    .one;
+    2.0%    .two;
+    *       "";
+}
+```
+
+[nginx mirroring tips and tricks](https://alex.dzyoba.com/blog/nginx-mirror/)
+
