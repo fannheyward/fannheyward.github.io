@@ -42,7 +42,7 @@ for err := range errChan {
 }
 ```
 
-`errgroup` 提供了类似的功能:
+[errgroup](https://pkg.go.dev/golang.org/x/sync/errgroup?tab=doc) 提供了类似的功能:
 
 ```go
 var g errgroup.Group
