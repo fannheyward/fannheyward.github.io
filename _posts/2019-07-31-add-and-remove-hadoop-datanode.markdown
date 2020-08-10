@@ -14,7 +14,7 @@ date: 2019-07-31 16:28:11 +0800
 ### 删除节点
 
 1. 在 `etc/hadoop/excludes` 写入要删掉的节点地址
-2. 修改 `etc/hadoop/ hdfs-site.xml`:
+2. 修改 `etc/hadoop/hdfs-site.xml`:
 
 ```xml
   <property>
@@ -66,4 +66,3 @@ date: 2019-07-31 16:28:11 +0800
 - [https://blog.csdn.net/Mark_LQ/article/details/53393081](https://blog.csdn.net/Mark_LQ/article/details/53393081)
 - [https://www.jianshu.com/p/727da7ba438a](https://www.jianshu.com/p/727da7ba438a)
 - [https://www.iteye.com/blog/shift-alt-ctrl-2102571](https://www.iteye.com/blog/shift-alt-ctrl-2102571)
-
