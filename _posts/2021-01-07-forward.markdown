@@ -1,0 +1,9 @@
+---
+layout: post
+title: ～/.forward
+date: 2021-01-07 10:27:41 +0800
+---
+
+`echo 'myname@email.com' > ~/.forward`
+
+This will make `smtpd` forwards email to the special address.
