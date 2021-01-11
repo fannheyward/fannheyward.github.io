@@ -6,4 +6,4 @@ date: 2021-01-07 10:27:41 +0800
 
 `echo 'myname@email.com' > ~/.forward`
 
-This will make `smtpd` forwards email to the special address. On AWS EC2, SES will be used to forward email to your Gmail.
+This will make `smtpd` forwards email to the special address. On AWS EC2, SES can be used to forward email to your Gmail.
