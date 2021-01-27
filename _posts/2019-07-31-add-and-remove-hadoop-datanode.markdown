@@ -63,6 +63,5 @@ date: 2019-07-31 16:28:11 +0800
 5. 切换节点为 active: `hdfs haadmin -failover nn1 nn2`，重启其他 namenode
 6. 检查 NN 状态 `hdfs haadmin -getServiceState nn1`
 
-- [https://blog.csdn.net/Mark_LQ/article/details/53393081](https://blog.csdn.net/Mark_LQ/article/details/53393081)
 - [https://www.jianshu.com/p/727da7ba438a](https://www.jianshu.com/p/727da7ba438a)
 - [https://www.iteye.com/blog/shift-alt-ctrl-2102571](https://www.iteye.com/blog/shift-alt-ctrl-2102571)
