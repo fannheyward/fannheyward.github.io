@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Write Like an Amazonian
-external-url: https://factoftheday1.substack.com/p/april-13-write-like-an-amazonian
 date: 2021-05-27 18:23:46 +0800
+external-url: https://factoftheday1.substack.com/p/april-13-write-like-an-amazonian
 ---
 
 ![Write Like an Amazonian](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Feceefbce-60d5-46f3-be8d-d92bc217b688_800x1159.jpeg)
