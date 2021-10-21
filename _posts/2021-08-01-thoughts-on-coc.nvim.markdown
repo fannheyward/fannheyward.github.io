@@ -116,3 +116,9 @@ Thoughts on LSP client for nvim by @justinmk [via](https://gitter.im/neovim/neov
 在使用层面的对比，built-in client 有着更为灵活自由的定制化，尤其是 UI 上，现在有非常多非常炫酷的 Lua 插件出现，coc 有限的配置项很难做到。
 
 未来会怎么样？coc 在 LSP client 有先发优势，extensions 上方便复用 VSCode 资源，兼容 vim/nvim，这些都是优点，nvim built-in client 也在快速迭代改进，我们大家都有光明的前途 :D
+
+> Added in 2021-10
+
+其实是两种软件模型的差异，假设有两个程序 A & B，它们都是单线程，都需要频繁的与第三方程序/服务进行通信，它们都采用 [libuv](https://github.com/libuv/libuv) 的 event-loop 机制进行任务调度。现在有了新需求：两者都需要响应用户操作，都需要根据任务返回的结果进行 UI 更新。A 的方案是在程序内添加 UI 层，内部 function 直接互相调用；B 的方案是新开程序 C，C 只负责 UI 层，通过管道/RPC和 B 通信。
+
+A - nvim, B - Node.js, C - nvim.
