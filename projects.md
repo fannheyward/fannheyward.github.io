@@ -20,17 +20,3 @@ permalink: /projects/
 
 Checkout more on [GitHub](https://github.com/fannheyward).
 
-### Sponsor me
-
-<!-- markdownlint-disable MD033 -->
-<table>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/345274/100826616-b5cfd480-3495-11eb-9e7a-a43c9863a46c.jpg" alt="alipay"/>
-    </td>
-    <td></td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/345274/100826637-c54f1d80-3495-11eb-8084-b94c90a535e9.JPG" alt="wechat"/>
-    </td>
-  </tr>
-</table>
