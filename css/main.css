@@ -641,3 +641,13 @@ pre > code {
 .highlight .il {
   color: #099;
 }
+.feedback--answer {
+  padding:0.8em 2em;
+  outline: none;
+  border-radius:5px;
+  background-color:white;
+  display: inline-block;
+}
+.feedback--answer-no {
+  margin-left: 1em;
+}
