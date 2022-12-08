@@ -66,7 +66,7 @@ coc 本身是个插件，又提供了 extension 功能，相当于是插件的�
 3. 有的纯粹是想用 Node.js 写 vim/nvim 插件罢了，比如我写过一个 `coc-ci`，使用 [segmentit](https://www.npmjs.com/package/segmentit) 做中文分词，之后添加 w/b 绑定实现中文分词跳转。（不过这个插件有很长时间没有更新了，因为我发现这是个伪需求，我自己使用率不高导致没啥维护意愿）
 4. 这些被抱怨造轮子的插件基本上都是 LSP 无关类型的，随着这些第三方插件的更新和支持，是否需要完全是个人喜好。
 
-我的个人偏好：不太喜欢 Python-based 插件。最早用 vim 的时候要自己编译 `+python | +python3` 支持，后来 nvim 出现让我切换的第一原因就是 remote plugin，只需要 pip neovim/pynvim 即可。但是需要安装到系统 Python 环境：使用系统自带 Python 需要 sudo pip，使用 brew 安装的 Python 在更新后因为路径变化炸过几次，当然也可以创建一个独立的 venv 指定给 nvim 使用，但是这些不好的历史让我最近几年很少使用 Python-based 插件，像 LeaderF 就很好很强大，尝试过几次都没坚持下来。
+我的个人偏好：不太喜欢 Python-based 插件。最早用 vim 的时候要自己编译 `+python | +python3` 支持，后来 nvim 出现让我切换的第一原因就是 remote plugin，只需要 pip neovim/pynvim 即可。但是需要安装到系统 Python 环境：使用系统自带 Python 需要 sudo pip，使用 brew 安装的 Python 在更新后因为路径变化炸过几次，当然也可以创建一个独立的 venv 指定给 nvim 使用，但是这些不好的历史让我最近几年很少使用 Python-based 插件，像 LeaderF 就很好很强大，尝试过几次都没坚持下来。
 
 ### auto completion engine
 
