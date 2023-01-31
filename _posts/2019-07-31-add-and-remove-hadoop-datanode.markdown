@@ -63,5 +63,11 @@ date: 2019-07-31 16:28:11 +0800
 5. 切换节点为 active: `hdfs haadmin -failover nn1 nn2`，重启其他 namenode
 6. 检查 NN 状态 `hdfs haadmin -getServiceState nn1`
 
+### 调整 Spark 节点
+
+- 新增：在 worker 上 `./sbin/start-slave.sh spark://master:7077`
+- 删除: 在 worker 上 `./sbin/stop-slave.sh`，需要注意的是如果 `$SPARK_PID_DIR` 没有指定的话，默认是在 `/tmp`，类似 `/tmp/spark-hadoop-org.apache.spark.deploy.worker.Worker-1.pid`
+- 在 master 节点修改 `conf/slaves`
+
 - [https://www.jianshu.com/p/727da7ba438a](https://www.jianshu.com/p/727da7ba438a)
 - [https://www.iteye.com/blog/shift-alt-ctrl-2102571](https://www.iteye.com/blog/shift-alt-ctrl-2102571)
