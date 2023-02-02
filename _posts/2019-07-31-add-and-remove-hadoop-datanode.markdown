@@ -63,6 +63,23 @@ date: 2019-07-31 16:28:11 +0800
 5. 切换节点为 active: `hdfs haadmin -failover nn1 nn2`，重启其他 namenode
 6. 检查 NN 状态 `hdfs haadmin -getServiceState nn1`
 
+### 调整 NodeManager
+
+1. 修改 `etc/hadoop/yarn-site.xml`
+
+```xml
+  <property>
+    <name>yarn.resourcemanager.nodes.exclude-path</name>
+    <value>/home/pubsrv/hadoop/etc/hadoop/excludes</value>
+  </property>
+```
+
+1. 同步到 ResourceManager
+2. 重启 ResourceManager，`sbin/yarn-daemon.sh stop|start resourcemanager`
+3. 修改 excludes，添加要删除的节点地址
+4. `yarn rmadmin -refreshNodes`
+5. `yarn node -list -all` 检查
+
 ### 调整 Spark 节点
 
 - 新增：在 worker 上 `./sbin/start-slave.sh spark://master:7077`
