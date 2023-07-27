@@ -1,5 +1,9 @@
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape}} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-57WRB9E7E6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -8,14 +12,10 @@
 
     gtag('config', 'G-57WRB9E7E6');
   </script>
-  <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d90b116d10bc491890d9f12271180ce8"}'></script>
-  <!-- End Cloudflare Web Analytics -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title | escape}} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/atom.xml" | relative_url }}">
   <link rel="manifest" href="/manifest.json">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,8 +25,6 @@
   <meta name="application-name" content="{{ site.title }}">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/atom.xml" | relative_url }}">
 
   {% seo title=false %}
 </head>
