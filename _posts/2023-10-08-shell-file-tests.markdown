@@ -14,3 +14,5 @@ List of common file test operators used in shell scripts:
 - `-w file`: Check if file exists and is *writable*
 - `-x file`: Check if file exists and is *executable*
 - `-p file`: Check if file exists and is a *named pipe* (FIFO)
+
+Check `man test` for more and details.
