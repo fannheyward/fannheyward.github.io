@@ -11,5 +11,6 @@ Host *
     UseKeychain yes
     IdentitiesOnly yes
     HostkeyAlgorithms +ssh-rsa
+    PubkeyAcceptedKeyTypes +ssh-rsa
     PubkeyAcceptedAlgorithms +ssh-rsa
 ```
