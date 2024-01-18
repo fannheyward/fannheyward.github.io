@@ -7,7 +7,7 @@ date: 2023-12-05 17:48:57 +0800
 > devv.ai 是如何构建高效的 RAG 系统的
 >
 > 1. <https://twitter.com/Tisoga/status/1731478506465636749>
-> 2. <https://twitter.com/tisoga/status/1736544319199478175>
+> 2. <https://twitter.com/Tisoga/status/1736544319199478175>
 
 如何让 LLM 使用外部知识库进行生成？之前的做法是在增加新的知识库后 fine-tuning，缺点是：每次更新知识都要重新 fine-tuning，带来巨大的训练成本。新的方案是 RAG，Retrieval Augmented Generation（检索增强生成），通过 prompt 的方式把新知识给到 LLM。三部分：
 
