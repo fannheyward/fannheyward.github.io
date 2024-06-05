@@ -27,3 +27,5 @@ The Python standard library offers many module-script utilities that can be used
 - `python -m site` display current Python environment info like `sys.path`
 - `python -m platform` display OS information
 - `python -m encodings.rot_13` encode/decode text by `ROT13` cipher
+
+More utilities and detailed explanation [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
