@@ -28,7 +28,7 @@ Notes:
     3. citation recall，引文召回率，所生成的内容完全得到引文支持的比例
     4. citation precision，引文精度，引文中支持生成内容的比例
 
-![emerging LLM](https://a16z.com/wp-content/uploads/2023/06/2657-Emerging-LLM-App-Stack-R2-1-of-4-2.png)
+![emerging LLM](https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/06/2657-Emerging-LLM-App-Stack-R2-1-of-4-2.png)
 
 ----
 
