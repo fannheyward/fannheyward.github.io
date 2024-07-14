@@ -123,4 +123,4 @@ Thoughts on LSP client for nvim by @justinmk [via](https://gitter.im/neovim/neov
 
 A - nvim, B - Node.js, C - nvim.
 
-类似的软件模型：**nvim + telescope.nvim** vs **nvim + Leaderf**.
+类似的软件模型：**nvim + telescope.nvim** vs **nvim + Leaderf/fzf-lua**.
