@@ -121,6 +121,6 @@ Thoughts on LSP client for nvim by @justinmk [via](https://gitter.im/neovim/neov
 
 其实是两种软件模型的差异，假设有两个程序 A & B，它们都是单线程，都需要频繁的与第三方程序/服务进行通信，它们都采用 [libuv](https://github.com/libuv/libuv) 的 event-loop 机制进行任务调度。现在有了新需求：两者都需要响应用户操作，都需要根据任务返回的结果进行 UI 更新。A 的方案是在程序内添加 UI 层，内部 function 直接互相调用；B 的方案是新开程序 C，C 只负责 UI 层，通过管道/RPC和 B 通信。
 
-A - nvim, B - Node.js, C - nvim.
+A - nvim, B - Node.js, C - nvim. 类似的软件模型：**nvim + telescope.nvim** vs **nvim + Leaderf/fzf-lua**.
 
-类似的软件模型：**nvim + telescope.nvim** vs **nvim + Leaderf/fzf-lua**.
+独立进程进行可以更多的利用多核资源，避免阻塞 nvim 界面操作，对应 nvim 在主线程进行 UI 渲染和 LSP client 操作，出现 lagging 的可能性越大。
