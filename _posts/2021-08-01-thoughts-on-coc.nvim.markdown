@@ -123,4 +123,4 @@ Thoughts on LSP client for nvim by @justinmk [via](https://gitter.im/neovim/neov
 
 A - nvim, B - Node.js, C - nvim. 类似的软件模型：**nvim + telescope.nvim** vs **nvim + Leaderf/fzf-lua**.
 
-独立进程进行可以更多的利用多核资源，避免阻塞 nvim 界面操作，对应 nvim 在主线程进行 UI 渲染和 LSP client 操作，出现 lagging 的可能性越大。
+独立进程进行可以更多的利用多核资源，避免阻塞 nvim 界面操作，对应 nvim 在主线程进行 UI 渲染和 LSP client 操作，再加上 tree-sitter query injections，出现 lagging 的可能性越大。
