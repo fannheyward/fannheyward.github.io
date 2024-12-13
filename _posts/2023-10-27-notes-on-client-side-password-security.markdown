@@ -4,7 +4,7 @@ title: Notes on 前端密码加密
 date: 2023-10-27 10:34:17 +0800
 ---
 
-> https://blog.huli.tw/2023/01/10/security-of-encrypt-or-hash-password-in-client-side/
+> <https://blog.huli.tw/2023/01/10/security-of-encrypt-or-hash-password-in-client-side/>
 
 1. HTTPS must
 2. 无加密的问题：
