@@ -1,0 +1,10 @@
+---
+layout: post
+title: TIL
+date: 2025-01-09 18:26:10 +0800
+---
+
+- `g?` in vim will encode the selected TEXT in [ROT13](https://en.wikipedia.org/wiki/ROT13)
+- `:let @a = @a . '@a'`, append macro call to make the macro recursive, run to the end of the file
+- <https://instances.vantage.sh/>, list and compare instances of AWS EC2/RDS etc
+- `fc -W` will save `history` to `~/.zsh_history`. DO NOT RUN `history -c` THAT WILL CLEAR THE HISTORY
