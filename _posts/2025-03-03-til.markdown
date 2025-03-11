@@ -4,6 +4,6 @@ title: TIL-2503
 date: 2025-03-03 11:21:14 +0800
 ---
 
-- <https://github.com/clice-project/clice> language server for C/CPP #LSP
-- write [concise essays](https://stephango.com/concise), less than 500 words [[Concise explanations accelerate progress]]
+- <https://github.com/clice-project/clice> language server for C/CPP LSP
+- write [concise essays](https://stephango.com/concise), less than 500 words
 - <https://macos-defaults.com> macOS defaults
