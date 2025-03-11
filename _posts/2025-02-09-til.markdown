@@ -1,0 +1,10 @@
+---
+layout: post
+title: TIL-2502
+date: 2025-02-09 18:57:27 +0800
+---
+
+- FOFA/Shodan/hunter.qianxin etc search engine can be used to find _unexpected_ exposed services, e.g. `port:9200` for ES
+- `summarize your tool in a markdown table with availability`, use this prompt to check ChatGPT's levels, and re-enable some skills
+- `:g/foo/s/bar/baz/` in vim can replace `bar` with `baz` in the line contains `foo`
+- `:v` same as `:g!`, inverse searching. `:v/foo/d` will delete lines not contains `foo`
