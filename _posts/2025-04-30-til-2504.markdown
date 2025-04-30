@@ -1,0 +1,12 @@
+---
+layout: post
+title: TIL-2504
+date: 2025-04-30 09:36:55 +0800
+---
+
+- 取消微信的健康权限，比如微信运动读取步数，很明显提高微信打开时的 loading 速度
+- [`Bento Grids`](https://bentogrids.com)，「弁当」日语便当。Bento Grid 的特点是内容在卡片内，不容大小内容的卡片组合展示，类似「🍱」效果
+- 沉浸式翻译出的 PDF 识别 https://github.com/funstory-ai/BabelDOC
+- [nanobrowser](https://github.com/nanobrowser/nanobrowser) 浏览器插件+AI=网页自动化
+- `defaults write -g NSStatusItemSpacing -int 8` decrease macOS's status bar item spacing
+- [Yak Shaving](https://americanexpress.io/yak-shaving/), **Stay focused** on the task at hand, and don’t shave that yak!
