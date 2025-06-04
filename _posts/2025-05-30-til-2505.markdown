@@ -1,0 +1,10 @@
+---
+layout: post
+title: TIL-2505
+date: 2025-06-04 09:50:04 +0800
+---
+
+- [Don't ask to ask, just ask](https://dontasktoask.com)
+- [Developer Roadmaps](https://roadmap.sh), 各种开发教程+练手 projects
+- [LocalCan](https://www.localcan.com), develop your apps locally with `.local` domains, #Ngrok alternative.
+
