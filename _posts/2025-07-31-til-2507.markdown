@@ -1,0 +1,8 @@
+---
+layout: post
+title: TIL-2507
+date: 2025-07-31 11:27:48 +0800
+---
+
+- [Apple Devices Screen Sizes](https://screensizes.app)
+- 谨记：自己决定不了的事情，不算数的
