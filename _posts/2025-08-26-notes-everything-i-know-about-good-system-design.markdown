@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes: Everything I know about good system design
+title: "Notes: Everything I know about good system design"
 date: 2025-08-26 11:19:57 +0800
 ---
 
