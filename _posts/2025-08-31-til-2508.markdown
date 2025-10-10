@@ -1,0 +1,8 @@
+---
+layout: post
+title: TIL-2506
+date: 2025-08-31 13:27:48 +0800
+---
+
+- <https://fx.wtf> 交互式 JSON 查看、过滤，类 `jq` + 支持 JS 语法比如 `.map(x => x.name)`
+- <https://manuals.plus/zh-CN/> 一站式电子设备在线手册说明书，非常清晰简洁方便
