@@ -9,8 +9,8 @@ date: 2025-08-26 11:19:57 +0800
 GitHub 工程师 @sgoedecke 的文章，一些笔记：
 
 1. software design is how you assemble lines of code, system design is how you assemble services. 程序设计是组装代码，系统设计是组装服务
-2. a complex system usually reflects an absence of good design，复杂的系统通常反映了缺乏良好的设计，所以
-3. You should try and minimize the amount of stateful components in any system. 尽量无状态服务，有状态意味着在重启、恢复时需要持久化数据，要考虑数据一致性等，增加了复杂度和成本。
+2. a complex system usually reflects an absence of good design，复杂的系统通常反映了缺乏良好的设计
+3. You should try and minimize the amount of stateful components in any system. 尽量无状态服务，有状态意味着在重启、恢复时需要持久化数据，要考虑数据一致性等，增加了复杂度和成本
 4. you should be able to go through the database schema and get a rough idea of what the application is storing and why，好的数据库设计是能够从表结构快速了解应用存储的数据和关系，从而了解应用的业务逻辑
 5. Background jobs should be your first choice for slow operations，后台异步处理耗时任务
 6. The typical pattern is that junior engineers learn about caching and want to cache everything, while senior engineers want to cache as little as possible. 初级工程师希望缓存所有内容，而高级工程师希望尽量少缓存。原因：缓存是有状态的！
