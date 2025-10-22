@@ -4,6 +4,6 @@ title: TIL-2509
 date: 2025-09-30 17:27:48 +0800
 ---
 
-- You think you’re being productive but **NO**, actually you’re just busy. 只要你感觉一直在忙，你就不太有效率 via [Naval](https://x.com/naval/status/1966294812950409443)
-- engineering is about building it _right_, founding is about building the _**right**_ thing via [benja](https://www.benja.dev/writing/from-engineer-to-founder)
+- You think you’re being productive but **NO**, actually you’re just busy. 只要你感觉一直在忙，你就不太有效率。 via [Naval](https://x.com/naval/status/1966294812950409443)
+- engineering is about building it _right_, founding is about building the _**right**_ thing. via [benja](https://www.benja.dev/writing/from-engineer-to-founder)
 - ~~周报~~ 战报会说谎，~~业绩~~ 战线不会
