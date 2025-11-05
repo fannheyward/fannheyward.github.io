@@ -1,0 +1,10 @@
+---
+layout: post
+title: TIL-2510
+date: 2025-10-31 11:38:48 +0800
+---
+
+- <https://0github.com> 使用 LLM 做 PR diff 查看
+- Set direction, don't set end point. By Dave Snowden
+- 一个人只能学到他准备好去学习的东西
+- 不要把别人得到的东西当做是自己失去的东西 [via](https://x.com/lyc_zh/status/1976084740261167348)
