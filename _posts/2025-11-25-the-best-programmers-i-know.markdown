@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Best Programmers I Know
+title: "Notes: The Best Programmers I Know"
 date: 2025-11-25 17:14:51 +0800
 external-url: https://endler.dev/2025/best-programmers/
 ---
