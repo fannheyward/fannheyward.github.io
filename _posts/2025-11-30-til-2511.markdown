@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2511
+title: TIL-2511
 date: 2025-11-30 18:45:25 +0800
 ---
 
