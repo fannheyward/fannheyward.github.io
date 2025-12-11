@@ -17,4 +17,4 @@ Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <fannheyward@gm
 
 [1]: https://twitter.com/fannheyward
 [2]: https://github.com/fannheyward
-[3]: http://stackoverflow.com/users/380774/fannheyward
+[3]: https://stackoverflow.com/users/380774/fannheyward
