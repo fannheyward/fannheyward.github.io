@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vimdiff
+title: vim diff
 date: 2015-10-13 20:42:30 +0800
 ---
 
