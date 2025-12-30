@@ -8,7 +8,7 @@ Some Spark articles are worth deep reading:
 
 ## [spark-notes](https://spoddutur.github.io/spark-notes/)
 
-1. leave **1 core per node** for Hadoop/Yarn/OS deamons
+1. leave **1 core per node** for Hadoop/Yarn/OS daemons
 1. leave **1G + 1 executor** for Yarn ApplicationMaster
 1. **3-5 cores per executor** for good HDFS throughput
 

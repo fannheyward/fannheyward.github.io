@@ -111,7 +111,7 @@ Demo：一个列表 `listTableView`，数据存储在 `NSMutableArray *cellArray
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if ([keyPath isEqualToString:@"cellCount"]) {
-        // check change if nessary.
+        // check change if necessary.
         [listTableView reloadData];
     } else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];

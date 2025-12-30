@@ -9,7 +9,7 @@ date: 2018-08-14 10:43:26 +0800
 * zR - open all folds
 * zM - close all folds
 * zc - close current fold
-* zo - open currrent fold
+* zo - open current fold
 
 * zj - move down to next fold
 * zk - move up to previous fold

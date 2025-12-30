@@ -13,6 +13,6 @@ GreaseMonkey 称得上是 Firefox 众多扩展中的神器，通过对 javascrip
 6. Google Time & Language Select.在 Google 搜索框旁边添加选择搜索时间范围和搜索语言选项，其中搜索时间范围很有用，可以指定搜索24小时以内或一周以内的网页。
 7. Reply buttons for new Douban.给豆瓣评论/小组/日记等可回复的帖子添加回复和引用按钮。
 8. Get Picasaweb Image URL.方便获取各种尺寸的 Picasa Web 图片外链地址。
-9. Google Language API Translator Tooltip[modifed].翻译选中的文字，用的是 Google 翻译的 API，可指定各种语言，非常棒。
+9. Google Language API Translator Tooltip[modified].翻译选中的文字，用的是 Google 翻译的 API，可指定各种语言，非常棒。
 
 Greasemonkey 的扩展性和 Fx 的扩展性一样强大，[官网](http://userscripts.org/)上数以万计的脚本极大的丰富了网页功能，带来更为方便的浏览体验。

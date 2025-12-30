@@ -27,5 +27,5 @@ export PROMPT_COMMAND='{ curr_hist=`history 1|awk "{print \\$1}"`;last_command=`
 ```sh
 echo "local6.*  /var/log/commands.log" > /etc/rsyslog.d/commands.conf
 systemctl restart rsyslog.service
-precmd() { eval 'RETRN_VAL=$?;logger -p local6.debug "$(whoami) [$$]: $(history | tail -n1 | sed "s/^[ ]*[0-9]\+[ ]*//" ) [$RETRN_VAL]"' }
+precmd() { eval 'RETURN_VAL=$?;logger -p local6.debug "$(whoami) [$$]: $(history | tail -n1 | sed "s/^[ ]*[0-9]\+[ ]*//" ) [$RETURN_VAL]"' }
 ```

@@ -11,7 +11,7 @@ title: "Windows Live Mesh 使用"
 2. 选择 Add Device，然后下载 Mesh 客户端，支持 XP/Vista，Mac 客户端功能现在还不完善；
 3. 安装后用 Live ID 登录，添加当前电脑到该账户 Mesh；
 4. 然后开始菜单-Live Mesh-Live Mesh Folders，这个文件夹就是 Mesh 的本地映射目录，只是目录，并不是要把同步的文件放到这个文件夹里；
-5. 假设我要把我电脑上 D:\Vim 文件夹以及包括的文件同步到 Mesh，Steps：在 Live Mesh Folders 里右键 Live Mesh Opitions-Create folder in Live Mesh，然后 Name:Vim，Location:D:\Vim，OK确认后会提示合并当前文件夹并且当前文件夹里的所有文件会同步到其他设备，确认即可，之后就同步到网络在线存储。
+5. 假设我要把我电脑上 D:\Vim 文件夹以及包括的文件同步到 Mesh，Steps：在 Live Mesh Folders 里右键 Live Mesh Options-Create folder in Live Mesh，然后 Name:Vim，Location:D:\Vim，OK确认后会提示合并当前文件夹并且当前文件夹里的所有文件会同步到其他设备，确认即可，之后就同步到网络在线存储。
 6. 登录 https://www.mesh.com/Web/Desktop.aspx 就可以查看同步到在线存储的 Vim 文件夹；
 7. 以后对 D:\Vim 下文件进行修改就会自动同步到 Live Mesh。
 

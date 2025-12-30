@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "多 UIScrolllView 下点击状态栏回到顶部"
+title: "多 UIScrollView 下点击状态栏回到顶部"
 date: 2013-09-05 11:08
 ---
 
