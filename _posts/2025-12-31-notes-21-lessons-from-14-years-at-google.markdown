@@ -4,9 +4,7 @@ title: "Notes: 21 Lessons from 14 Years at Google"
 date: 2025-12-31 11:04:51 +0800
 ---
 
-![](https://i.imgur.com/i40Enxe.png)
-
-[21 Lessons from 14 Years at Google](https://addyo.substack.com/p/21-lessons-from-14-years-at-google) by @addyosmani.
+> [21 Lessons from 14 Years at Google](https://addyo.substack.com/p/21-lessons-from-14-years-at-google) by @addyosmani.
 
 - 好的工程师要痴迷于(obsessed) 解决问题，解决用户的问题，解决核心根本的问题，而不是避免沉迷技术、为用技术而找场景
 - Getting to right **together**, not just right alone. 通过讨论一起对齐问题和方案，共同推进解决方案的实现。
@@ -29,3 +27,6 @@ date: 2025-12-31 11:04:51 +0800
 - 流程的目的是为了降低不确定性，如果没有，那就说明流程不对，为了流程而做事
 - 权衡**时间成本**和**收益**，
 - 积累：持续突破现有技能、反思总结，无捷径可走
+
+![text](https://i.imgur.com/i40Enxe.png)
+
