@@ -1,0 +1,11 @@
+---
+layout: post
+title: TIL-2512
+date: 2025-12-31 14:35:27 +0800
+---
+
+- `dig whoami.cloudflare ch txt @1.1.1.1 +short`
+- <https://missing-semester-cn.github.io> 计算机教育中缺失的一课
+- <https://themodernsoftware.dev> CS146S: The Modern Software Developer，斯坦福的 AI Coding 课程
+- 但凡一个东西在这里出现，那一定是背后有人默许的，没有例外
+- 人生里大多数弯路，都不是因为你不努力、没能力，而是因为——**你太能忍了**
