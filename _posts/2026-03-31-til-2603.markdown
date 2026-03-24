@@ -1,0 +1,12 @@
+---
+layout: post
+title: TIL-2603
+date: 2026-03-31 17:18:22 +0800
+---
+
+- OpenClaw 是 AI 时代的 Linux
+- Model does task, Agent finishes the job
+- 在AI时代，只要你学得足够慢，你就可以不用学 [via](https://x.com/fxtrader/status/2034514959212884455)
+- 现代编程语言的表达力其实已经非常接近“Prompts”了，换句话说，当你尝试把所有约束都精确表达出来的时候，所耗费的精力一定是大于写代码本身的 [via](https://x.com/RainzeeWang/status/2030343586391490831)
+- <https://defuddle.md/x.com/kepano/status/2028849157847617786> Add `defuddle.md` before any URL to get the main content of a page in Markdown format.
+- [Jujutsu - Agent 时代的版本控制](https://onevcat.com/2026/03/jj-for-agent-era/)

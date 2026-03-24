@@ -1,0 +1,8 @@
+---
+layout: post
+title: TIL-2601
+date: 2026-01-31 17:16:20 +0800
+---
+
+- <https://sprites.dev> 沙盒环境，适合 Claude Code/Codex 隔离运行
+- <https://port1355.dev> replaces port numbers with stable, named `.localhost` URLs for local development.

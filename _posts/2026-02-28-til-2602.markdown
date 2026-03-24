@@ -1,0 +1,9 @@
+---
+layout: post
+title: TIL-2602
+date: 2026-02-28 17:17:46 +0800
+---
+
+- Timing 是不可复制的
+- 创始人决定了公司的质感，决定了吸引到人才的特质
+- Clawd → Moltbot → OpenClaw
