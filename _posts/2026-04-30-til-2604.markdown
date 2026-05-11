@@ -1,0 +1,12 @@
+---
+layout: post
+title: TIL-2604
+date: 2026-04-30 18:42:39 +0800
+---
+
+- 好玩的麻将教程 [Mahjong: a Visual Guide](https://themahjong.guide/)
+- <https://rantbase.app> AI 抓取和分析应用商店 App reviews，免费
+- DHH 对 AI Coding 的观点：When something is beautiful, it’s likely to be correct. [via](https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code)
+- 带团队根本不需要体贴善良有同理心，你只需要不停成功
+- 在绝对的价值面前，情绪价值一文不值
+- 高压交付的项目，往往也会走向高压管理。~~但这不该被当成理所当然~~
