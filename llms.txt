@@ -1,0 +1,45 @@
+# Meet @fannheyward
+
+Personal site of Heyward Fann (aka **fannheyward**), a developer based in Beijing, China. The site hosts long-running blog posts, includes technical sharing, notes & tips, and personal thoughts.
+
+Author focus areas:
+
+- JavaScript / TypeScript / Python / Golang / OpenResty
+- AWS / GCP / Cloudflare
+- iOS (Objective-C)
+- Neovim and LSP tooling
+
+## Pages
+
+- [About](https://fann.im/about/): Short bio and contact information.
+- [Archives](https://fann.im/blog/archives/): Full chronological index of every posts.
+- [Projects](https://fann.im/projects/): Open-source projects authored or maintained.
+- [Atom feed](https://fann.im/atom.xml): Subscription feed for new posts.
+- [Sitemap](https://fann.im/sitemap.xml): Machine-readable list of all URLs.
+
+The site has been updated continuously since 2008; see the [Archives](https://fann.im/blog/archives/) for the complete history.
+
+## Projects
+
+As member:
+
+- [coc.nvim](https://github.com/neoclide/coc.nvim): intellisense engine for Vim/Neovim, full Language Server Protocol support like VSCode.
+
+As creator:
+
+- [coc-marketplace](https://github.com/fannheyward/coc-marketplace): coc.nvim extensions marketplace.
+- [coc-xml](https://github.com/fannheyward/coc-xml): XML support for Vim/Neovim with coc.nvim.
+- [coc-pyright](https://github.com/fannheyward/coc-pyright): Pyright for Vim/Neovim with coc.nvim.
+- [coc-rust-analyzer](https://github.com/fannheyward/coc-rust-analyzer): rust-analyzer for Vim/Neovim with coc.nvim.
+- [coc-markdownlint](https://github.com/fannheyward/coc-markdownlint): markdownlint for Vim/Neovim with coc.nvim.
+- [coc-clangd](https://github.com/clangd/coc-clangd): clangd extension for coc.nvim.
+- [coc-julia](https://github.com/fannheyward/coc-julia): Julia extension for coc.nvim with pre-compiled LanguageServer.jl support.
+
+More on [GitHub](https://github.com/fannheyward).
+
+## Links
+
+- GitHub: <https://github.com/fannheyward>
+- X/Twitter: <https://x.com/fannheyward>
+- Stack Overflow: <https://stackoverflow.com/users/380774/fannheyward>
+- Email: <fannheyward@gmail.com>
