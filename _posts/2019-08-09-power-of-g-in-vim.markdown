@@ -6,7 +6,7 @@ date: 2019-08-09 18:31:21 +0800
 
 `:[range]g[!]/pattern/cmd`
 
-`!` means **do not** match pattern, cmd list:
+`!` means **do not** match pattern, use `:v` as the same. cmd list:
 
 - `d`: delete
 - `m`: move
