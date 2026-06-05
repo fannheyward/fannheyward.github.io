@@ -1,0 +1,10 @@
+---
+layout: post
+title: TIL-2605
+date: 2026-05-31 14:16:49 +0800
+---
+
+- As a good rule of thumb, proprietary technology must be at least 10 times better than its closest substitute in some important dimension to lead to a real monopolistic advantage. 10 倍技术法则：新技术想要颠覆老的技术，需要在一个点上面做的比老的技术好10倍。via Peter Thiel's book 《Zero to One》
+- 不是因为看见才相信，是因为相信才能看见
+- 团队本身就是创业公司的第一个产品，其他的产品都是这个产品的衍生品 [via](https://x.com/yetone/status/2056647238471012483)
+- 新的编程范式：LLM 是编译器，输入的 prompt/spec 是新形式的代码，输出的结果是软件产品。随着 LLM（编译器）的增强，结果也在越来越好
