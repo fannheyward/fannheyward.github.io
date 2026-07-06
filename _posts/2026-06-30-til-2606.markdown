@@ -1,0 +1,15 @@
+---
+layout: post
+title: TIL-2606
+date: 2026-06-30 18:21:37 +0800
+---
+
+1. 两个移动端 Agent 自动化测试工具
+    - <https://github.com/lycorp-jp/sim-use>
+    - <https://github.com/callstack/agent-device>
+2. [Vim 的起源](https://blog.batkiz.com/posts/ai-translation-where-vim-came-from/)，原文 [Where Vim Came From](https://twobithistory.org/2018/08/05/where-vim-came-from.html)
+3. 几个 Coding Agent 编排工具
+    - <https://github.com/multica-ai/multica> 客户端 + web
+    - <https://github.com/memohai/Memoh>
+    - <https://www.helio.im>
+    - <https://github.com/stablyai/orca> 电脑+手机端
