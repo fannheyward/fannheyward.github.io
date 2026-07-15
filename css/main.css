@@ -466,6 +466,16 @@ pre > code {
   font-size: 18px;
 }
 
+#archive li {
+  display: grid;
+  grid-template-columns: 6ch minmax(0, 1fr);
+  column-gap: 0.5em;
+}
+
+#archive time {
+  font-variant-numeric: tabular-nums;
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
