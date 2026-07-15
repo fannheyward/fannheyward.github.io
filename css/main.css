@@ -610,6 +610,115 @@ pre > code {
 }
 
 /**
+ * Quote posts
+ */
+.quote-post {
+  max-width: 680px;
+  margin: 16px auto 48px;
+}
+
+.quote-post__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.quote-post__content blockquote {
+  position: relative;
+  margin: 0;
+  padding: 8px 36px;
+  border: 0;
+  color: #1a1a1a;
+  font-size: clamp(24px, 3.25vw, 30px);
+  font-style: normal;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.quote-post__content blockquote::before,
+.quote-post__content blockquote p:last-child::after {
+  color: #1f6fd1;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  line-height: 1;
+}
+
+.quote-post__content blockquote::before {
+  position: absolute;
+  content: "“";
+  top: 4px;
+  left: 0;
+}
+
+.quote-post__content blockquote p:last-child::after {
+  content: "”";
+  margin-left: 0.1em;
+  vertical-align: -0.28em;
+}
+
+.quote-post__content blockquote p {
+  margin-bottom: 0;
+}
+
+.quote-post__content > blockquote + p {
+  margin: 14px 36px 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.quote-post__meta {
+  margin: 32px 36px 0;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+  color: #666;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media screen and (max-width: 600px) {
+  .quote-post {
+    margin-top: 0;
+  }
+
+  .quote-post__content blockquote {
+    padding-right: 28px;
+    padding-left: 28px;
+    font-size: 22px;
+    line-height: 1.7;
+  }
+
+  .quote-post__content > blockquote + p,
+  .quote-post__meta {
+    margin-right: 28px;
+    margin-left: 28px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .quote-post__content blockquote {
+    color: #e0e0e0;
+  }
+
+  .quote-post__content blockquote::before,
+  .quote-post__content blockquote p:last-child::after {
+    color: #5a9cf5;
+  }
+
+  .quote-post__content > blockquote + p,
+  .quote-post__meta {
+    color: #999;
+  }
+
+  .quote-post__meta {
+    border-top-color: #2a2a2a;
+  }
+}
+
+/**
  * Syntax highlighting styles
  */
 .highlight {

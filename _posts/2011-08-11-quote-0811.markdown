@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: quote
 title: "Quote"
 ---
 
 > 不要做让自己讨厌自己的事情。
-

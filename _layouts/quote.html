@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="quote-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <h1 class="quote-post__title" itemprop="name headline">{{ page.title | escape }}</h1>
+
+  <div class="quote-post__content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="quote-post__meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+  </footer>
+
+</article>
+
+{% include feedback.html %}
