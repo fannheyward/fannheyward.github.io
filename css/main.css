@@ -466,42 +466,47 @@ pre > code {
   font-size: 18px;
 }
 
-.sponsor-callout {
-  display: flex;
+.sponsor-profile {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  gap: 16px;
   margin-top: 32px;
-  padding: 16px 18px;
-  border: 1px solid #dce4ed;
-  border-left: 3px solid #1f6fd1;
-  background-color: #f3f6fa;
+  padding: 18px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.sponsor-callout p {
+.sponsor-profile img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.sponsor-profile p {
   margin: 0;
   line-height: 1.45;
 }
 
-.sponsor-callout strong,
-.sponsor-callout span {
+.sponsor-profile strong,
+.sponsor-profile span {
   display: block;
 }
 
-.sponsor-callout strong {
+.sponsor-profile strong {
   color: #1a1a1a;
   font-size: 16px;
   font-weight: 600;
 }
 
-.sponsor-callout span {
+.sponsor-profile span {
   margin-top: 2px;
   color: #666;
   font-size: 14px;
 }
 
-.sponsor-callout iframe {
-  flex-shrink: 0;
+.sponsor-profile iframe {
   width: 114px;
   height: 32px;
   border: 0;
@@ -509,26 +514,37 @@ pre > code {
 }
 
 @media screen and (max-width: 600px) {
-  .sponsor-callout {
-    align-items: flex-start;
-    flex-direction: column;
+  .sponsor-profile {
+    grid-template-columns: 48px minmax(0, 1fr);
     gap: 12px;
-    padding: 15px;
+    padding: 16px 0;
+  }
+
+  .sponsor-profile img {
+    align-self: start;
+    width: 48px;
+    height: 48px;
+  }
+
+  .sponsor-profile iframe {
+    grid-column: 2;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .sponsor-callout {
-    border-color: #2b3744;
-    border-left-color: #5a9cf5;
-    background-color: #181b1f;
+  .sponsor-profile {
+    border-color: #2a2a2a;
   }
 
-  .sponsor-callout strong {
+  .sponsor-profile img {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.16);
+  }
+
+  .sponsor-profile strong {
     color: #e0e0e0;
   }
 
-  .sponsor-callout span {
+  .sponsor-profile span {
     color: #aaa;
   }
 }
