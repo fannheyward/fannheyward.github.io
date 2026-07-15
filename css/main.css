@@ -466,6 +466,73 @@ pre > code {
   font-size: 18px;
 }
 
+.sponsor-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 32px;
+  padding: 16px 18px;
+  border: 1px solid #dce4ed;
+  border-left: 3px solid #1f6fd1;
+  background-color: #f3f6fa;
+}
+
+.sponsor-callout p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.sponsor-callout strong,
+.sponsor-callout span {
+  display: block;
+}
+
+.sponsor-callout strong {
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sponsor-callout span {
+  margin-top: 2px;
+  color: #666;
+  font-size: 14px;
+}
+
+.sponsor-callout iframe {
+  flex-shrink: 0;
+  width: 114px;
+  height: 32px;
+  border: 0;
+  color-scheme: light;
+}
+
+@media screen and (max-width: 600px) {
+  .sponsor-callout {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .sponsor-callout {
+    border-color: #2b3744;
+    border-left-color: #5a9cf5;
+    background-color: #181b1f;
+  }
+
+  .sponsor-callout strong {
+    color: #e0e0e0;
+  }
+
+  .sponsor-callout span {
+    color: #aaa;
+  }
+}
+
 #archive li {
   display: grid;
   grid-template-columns: 6ch minmax(0, 1fr);
