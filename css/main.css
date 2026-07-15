@@ -469,7 +469,7 @@ pre > code {
 #archive li {
   display: grid;
   grid-template-columns: 6ch minmax(0, 1fr);
-  column-gap: 0.5em;
+  column-gap: 1em;
 }
 
 #archive time {
@@ -1012,27 +1012,5 @@ pre > code {
   .highlight .gi .x {
     color: #aff5b4;
     background-color: #033a16;
-  }
-}
-
-.feedback--answer {
-  padding:0.8em 2em;
-  outline: none;
-  border-radius:5px;
-  border: 1px solid #ddd;
-  background-color:white;
-  color: #1a1a1a;
-  display: inline-block;
-  font: inherit;
-}
-.feedback--answer-no {
-  margin-left: 1em;
-}
-
-@media (prefers-color-scheme: dark) {
-  .feedback--answer {
-    border-color: #333;
-    background-color: #1e1e1e;
-    color: #e0e0e0;
   }
 }

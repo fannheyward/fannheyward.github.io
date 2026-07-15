@@ -4,7 +4,7 @@ importScripts(
 
 workbox.core.setCacheNameDetails({
   prefix: "im.fann",
-  suffix: "v1"
+  suffix: "v2"
 });
 
 workbox.core.skipWaiting();
@@ -14,7 +14,7 @@ workbox.googleAnalytics.initialize();
 
 workbox.routing.registerRoute(
   /\.(?:js|json|css)$/,
-  new workbox.strategies.CacheFirst()
+  new workbox.strategies.StaleWhileRevalidate()
 );
 workbox.routing.registerRoute(
   /\.(?:png|jpg|jpeg|svg|gif)$/,
