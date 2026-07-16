@@ -302,6 +302,11 @@ pre > code {
   min-height: 56px;
 }
 
+/* The legacy clearfix would become a third flex item. */
+.site-header .wrapper::after {
+  display: none;
+}
+
 .site-title {
   font-size: 18px;
   font-weight: 500;
@@ -622,7 +627,6 @@ pre > code {
 
 .post-header {
   margin-bottom: 24px;
-  padding-bottom: 16px;
 }
 
 .home .post-header h2 {
