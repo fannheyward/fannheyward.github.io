@@ -1,19 +1,21 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="post-header">
     {% if page.external-url %}
-      <h1><a href="{{ page.external-url }}">{{ page.title }}</a></h1>
+      <h1 class="post-title"><a class="p-name" href="{{ page.external-url }}" rel="external">{{ page.title | escape }}</a></h1>
     {% else %}
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     {% endif %}
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    <p class="post-meta"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>{% if page.author %} <span aria-hidden="true">•</span> <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>{% endif %}</p>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

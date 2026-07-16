@@ -3,39 +3,38 @@ layout: default
 ---
 
 <div class="home">
+  <h1 class="visually-hidden">Latest posts</h1>
 
   {% for post in paginator.posts %}
-    <div class="post">
+    <article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 
       <header class="post-header">
-        <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h1>
+        <h2><a class="post-link p-name" href="{{ post.url | relative_url }}" itemprop="name headline">{{ post.title | escape }}</a></h2>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <p class="post-meta"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: date_format }}</time></p>
       </header>
 
-      <article class="post-content">
-      {{ post.content }}
-      </article>
+      <div class="post-content e-content" itemprop="articleBody">
+        {{ post.content }}
+      </div>
 
-    </div>
+      <a class="u-url" href="{{ post.url | relative_url }}" hidden></a>
+    </article>
   {% endfor %}
 
-  <!-- Pagination links -->
-  <div class="pagination">
+  <nav class="pagination" aria-label="Pagination">
     {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a href="/">Previous</a>
-      {% else %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">Previous</a>
-      {% endif %}
+      <a class="pagination__previous" href="{{ paginator.previous_page_path | relative_url }}" rel="prev">← Newer posts</a>
     {% else %}
-      <span class="previous">Previous</span>
+      <span class="pagination__previous" aria-hidden="true">← Newer posts</span>
     {% endif %}
 
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="pagination__status">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next</a>
+      <a class="pagination__next" href="{{ paginator.next_page_path | relative_url }}" rel="next">Older posts →</a>
     {% else %}
-      <span class="next ">Next</span>
+      <span class="pagination__next" aria-hidden="true">Older posts →</span>
     {% endif %}
-  </div>
+  </nav>
 
 </div>

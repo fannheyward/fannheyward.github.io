@@ -1,10 +1,18 @@
 # Site settings
 title: Meet @fannheyward
+lang: en
 author: "Heyward Fann"
 email: fannheyward@gmail.com
 description: "Heyward Fann, aka fannheyward, a developer based in Beijing, China."
 baseurl: ""
 url: "https://fann.im"
+
+minima:
+  date_format: "%b %-d, %Y"
+  nav_pages:
+    - projects.md
+    - archives.html
+    - about.md
 
 github_username:  fannheyward
 
@@ -38,4 +46,3 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-gist
-
