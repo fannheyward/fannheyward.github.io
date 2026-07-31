@@ -1,0 +1,20 @@
+---
+layout: post
+title: TIL 2607
+date: 2026-07-31 19:56:12 +0800
+---
+
+- `transcreate` 创造性翻译，用这个 keyword 让 AI 进行翻译文本效果更好
+- <https://workbuddy.homes> 面向非技术人员的 WorkBuddy 教程，详细真实任务
+- [Cloudflare Drop](https://cloudflare.com/drop) / [Vercel Drop](https://vercel.com/drop) 临时部署静态网站，默认无需账号，可以 claim to account
+- 本地模拟云服务环境：
+  - <https://floci.io> (Java, AWS/GCP/Azure)
+  - <https://fakecloud.dev/> (Rust, AWS only)
+- `design.md` 工具，give Agent some design taste：
+	- <https://styles.refero.design>
+	- <https://www.designmd.supply>
+- 四类问题
+	- Known Knowns 已知的已知
+	- Known Unknowns 已知的未知
+	- Unknown Knowns 未知的已知
+	- Unknown Unknowns 未知的未知
