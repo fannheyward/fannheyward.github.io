@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TIL 2607
-date: 2026-07-31 19:56:12 +0800
+date: 2026-07-31 09:56:12 +0800
 ---
 
 - `transcreate` 创造性翻译，用这个 keyword 让 AI 进行翻译文本效果更好
@@ -11,10 +11,10 @@ date: 2026-07-31 19:56:12 +0800
   - <https://floci.io> (Java, AWS/GCP/Azure)
   - <https://fakecloud.dev/> (Rust, AWS only)
 - `design.md` 工具，give Agent some design taste：
-	- <https://styles.refero.design>
-	- <https://www.designmd.supply>
+  - <https://styles.refero.design>
+  - <https://www.designmd.supply>
 - 四类问题
-	- Known Knowns 已知的已知
-	- Known Unknowns 已知的未知
-	- Unknown Knowns 未知的已知
-	- Unknown Unknowns 未知的未知
+  - Known Knowns 已知的已知
+  - Known Unknowns 已知的未知
+  - Unknown Knowns 未知的已知
+  - Unknown Unknowns 未知的未知
