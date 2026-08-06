@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2607
+title: TIL-2607
 date: 2026-07-31 09:56:12 +0800
 ---
 
