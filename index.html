@@ -3,10 +3,22 @@ layout: default
 ---
 
 <div class="home">
-  <h1 class="visually-hidden">Latest posts</h1>
+  <section class="archive-intro" aria-labelledby="archive-title">
+    <h1 id="archive-title">Notes since 2008</h1>
+    <p class="archive-intro__description">Technical work, tools, and life, kept as a public archive.</p>
+    <p class="archive-intro__meta">
+      <span>{{ site.posts | size }} posts</span>
+      <a href="{{ "/blog/archives/" | relative_url }}">Archives</a>
+      <a href="{{ "/atom.xml" | relative_url }}">Atom feed</a>
+    </p>
+  </section>
 
   {% for post in paginator.posts %}
-    <article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
+    {% assign is_featured = false %}
+    {% if paginator.page == 1 and forloop.first %}
+      {% assign is_featured = true %}
+    {% endif %}
+    <article class="post{% if is_featured %} post--featured{% else %} post--summary{% endif %} h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 
       <header class="post-header">
         <h2><a class="post-link p-name" href="{{ post.url | relative_url }}" itemprop="name headline">{{ post.title | escape }}</a></h2>
@@ -14,9 +26,11 @@ layout: default
         <p class="post-meta"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: date_format }}</time></p>
       </header>
 
-      <div class="post-content e-content" itemprop="articleBody">
-        {{ post.content }}
-      </div>
+      {% if is_featured %}
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+      {% endif %}
 
       <a class="u-url" href="{{ post.url | relative_url }}" hidden></a>
     </article>
