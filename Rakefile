@@ -21,6 +21,27 @@ task :post do
     sh "open #{filename}"
 end
 
+desc 'Make a new quote'
+task :quote do
+    print 'Enter quote title: '
+    title = STDIN.gets.chomp
+    abort 'No title.' unless title.length > 0
+
+    filename = "_posts/#{Time.new.strftime('%Y-%m-%d')}-#{title.downcase.gsub(' ', '-')}.markdown"
+    abort "Error: #{filename} already exists." if File.exist?(filename)
+
+    puts "Creating new quote: #{filename}"
+    open(filename, 'w') do |post|
+        post.puts "---"
+        post.puts "layout: quote"
+        post.puts "title: #{title}"
+        post.puts "date: #{Time.new.to_s}"
+        post.puts "---"
+        post.puts ""
+    end
+    sh "open #{filename}"
+end
+
 desc 'Clean cache'
 task :clean do
     sh 'jekyll clean'
