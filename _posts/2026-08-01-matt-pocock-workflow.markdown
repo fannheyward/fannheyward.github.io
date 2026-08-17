@@ -10,4 +10,5 @@ date: 2026-08-01 11:08:00 +0800
 4. `/implement` loop the tickets on kanban
 5. `/code-review` doing review
 6. `/diagnosing-bugs` on bugs
-7. **`/wayfinder`** to make a map of big problem, will split into several spec docs
+7. `/codebase-design` on architecture design
+8. **`/wayfinder`** to make a map of big problem, will split into several spec docs
