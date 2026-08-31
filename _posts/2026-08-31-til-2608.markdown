@@ -1,0 +1,13 @@
+---
+layout: post
+title: TIL-2608
+date: 2026-08-31 14:45:03 +0800
+---
+
+- `Stop asking it for answers. Ask it to steelman your problem first.`
+- macOS 文件夹以 `.noindex` 结尾，或文件夹目录包含 `.metadata_never_index`，可以阻止 Spotlight 索引该目录及其内容
+- <https://markdown.new> 类似 <https://defuddle.md> ，把网页转 markdown，但清洗没有 defuddle.md 做的好。优点是支持文件转 markdown
+- <https://developer.apple.com/documentation/retentionmessaging> iOS 用户订阅退订挽留 API
+	![](https://developer.apple.com/tutorials/images/com.apple.retentionmessaging/cancel-messaging-image-with-text-first@2x.png)
+- Redirect(302/303/307) `https://<domain>/.well-known/change-password` to the password change page, Chrome, Safari, and major password managers will be able to guide users directly to the password change screen.
+	![](https://pbs.twimg.com/media/HQx3G1aaIAESOOb?format=jpg&name=medium)
