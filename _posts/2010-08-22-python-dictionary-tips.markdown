@@ -5,13 +5,13 @@ title: "Python Dictionary tips"
 
 - Constructing Dictionaries with Keyword Arguments,the simplest way to create a Dict.
 
-```
+```py
 dict(a=1, b=2, c=3) # returns {'a': 1, 'b': 2, 'c': 3}
 ```
 
 - Dicts to Lists.
 
-```
+```py
 dict = {'a': 1, 'b': 2, 'c': 3}
 keys_list = dict.keys() #return ['a', 'c', 'b']
 values_list = dict.values() #return [1,2,3]
