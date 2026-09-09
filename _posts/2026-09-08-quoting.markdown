@@ -4,7 +4,7 @@ title: Quoting
 date: 2026-09-08 11:40:52 +0800
 ---
 
-> https://x.com/chunxiangai/status/2096582316600771071/video/1
+> <https://x.com/chunxiangai/status/2096582316600771071/video/1>
 
 1. 成功是事件驱动，而非时间驱动
 2. 时间驱动的只有我们的年龄
