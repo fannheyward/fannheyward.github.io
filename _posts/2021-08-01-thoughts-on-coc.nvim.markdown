@@ -19,7 +19,7 @@ date: 2021-08-01 18:54:23 +0800
 - coc 依赖 Node.js，太重了，npm 依赖是个无底洞，一个安装吃掉一堆硬盘
 - coc 太大了，附带了很多其他插件的功能，不够 KISS，自成一派的插件体系分裂社区
 
-以上都对，也都不全面。在我看了：
+以上都对，也都不全面。在我看来：
 
 > coc.nvim = node-based LSP client + handler + extensions host + auto completion engine + UI
 
@@ -31,7 +31,7 @@ date: 2021-08-01 18:54:23 +0800
 
 VSCode 提供了最为完整的 LSP 支持和迭代更新，并且会定期把 VSCode 里的实现更新到 [vscode-languageserver-node](https://github.com/microsoft/vscode-languageserver-node)，包括 Node.js 实现的 server，client，JSON-RPC，protocol definition 等。coc 里的 `language-client` 是基于 `vscode-languageclient` 的~~完全~~移植，目前对应版本是 v7.0.0，完整度在 95%+，缺失的部分是 vim/nvim 端不需要的。因为有 `vscode-languageclient` 加持，可以说 coc 是 vim/nvim 上**几乎最为完整**的 LSP client 实现，可以实现和支持不同 LS 所支持的所有功能。
 
-Note： 这里说的实现是指 API 层的交互，就是 LSP 定义某个功能协议，某个语言的 LS 也实现支持，client 可以完成和 LS 的通信交互，但对应的功能还需要界面交互层来提供给使用者。举例：在 VSCode 中右键重命名文件会把代码中所有 import 这个文件的代码改为新名字。具体的流程是重命名操作触发 `willRename` 事件，通过 LSP `workspace/willRenameFiles` 发送到 LS，LS 实现修改所有 import 并返回，client 接收采用。目前 coc 支持所有 `fileOperations` 请求，但功能上只有 `willRename` 的实现，缺少 `Create/Delete`，原因就是在界面交互上还没有特别好的支撑。
+Note： 这里说的实现是指 API 层的交互，就是 LSP 定义某个功能协议，某个语言的 server 也实现支持，client 可以完成和 LS 的通信交互，但对应的功能还需要界面交互层来提供给使用者。举例：在 VSCode 中右键重命名文件会把代码中所有 import 这个文件的代码改为新名字。具体的流程是 client 重命名操作触发 `willRename` 事件，通过 LSP `workspace/willRenameFiles` 发送到 server，server 实现修改所有 import 并返回，client 接收采用。目前 coc 支持所有 `fileOperations` 请求，但功能上只有 `willRename` 的实现，缺少 `Create/Delete`，原因就是在界面交互上还没有特别好的支撑。
 
 ### handler
 
