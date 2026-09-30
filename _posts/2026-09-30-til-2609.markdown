@@ -1,0 +1,10 @@
+---
+layout: post
+title: TIL-2609
+date: 2026-09-30 14:21:58 +0800
+---
+
+- Standard, agreed-upon paths under `/.well-known/` <https://specification.website/spec/well-known/>
+- Apple Developer Documentation provides markdown-formatted docs, just put `.md` at the end of URLs. e.g. `https://developer.apple.com/documentation/swift/array.md` 苹果开发者文档有 markdown 版本，URLs 增加 `.md`
+- `git log -n 3` limits the output to the latest 3 commit logs
+- `open -R FILENAME` 可以打开文件所在的目录，`open -R $(ls | head -n 1)` 替代 `cdf`
