@@ -1,0 +1,9 @@
+---
+layout: post
+title: TIL 2610
+date: 2026-10-31 18:41:27 +0800
+---
+
+- <https://safearea.info> 苹果设备的安全区域边距/保留区域 #iOS
+- <https://mygo.egoist.dev> Desktop apps in Go
+- 失败了，就在你能赢的战场再开一局 #life
